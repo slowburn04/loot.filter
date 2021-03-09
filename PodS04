@@ -18,13 +18,13 @@ ItemDisplay[gfv OR gfw OR gfg OR gfr OR gfb OR gfy OR skf]: //Ignore Flawed Gems
 ItemDisplay[gsv OR gsw OR gsg OR gsr OR gsb OR gsy OR sku]: //Ignore Regular Gems
 //ItemDisplay[glg OR glb OR gly OR glr]: //Ignore All Flawless Except for Amethyst, Diamond, and Skull
 
-ItemDisplay[gzv]: %ORANGE%[%PURPLE%Amethyst%ORANGE%] //Flawless Amethyst
-ItemDisplay[glw]: %ORANGE%[%WHITE%Diamond%ORANGE%] //Flawless Diamond
-ItemDisplay[glg]: %ORANGE%[%GREEN%Emeral%ORANGE%] //Flawless Emerald
-ItemDisplay[glr]: %ORANGE%[%RED%Ruby%ORANGE%] //Flawless Ruby
-ItemDisplay[glb]: %ORANGE%[%BLUE%Sapphire%ORANGE%] //Flawless Sapphire
-ItemDisplay[gly]: %ORANGE%[%YELLOW%Topaz%ORANGE%] //Flawless Topaz
-ItemDisplay[skl]: %ORANGE%[%GRAY%Skull%ORANGE%] //Flawless Skull
+ItemDisplay[gzv]: %ORANGE%[%ORANGE%Amethyst%ORANGE%] //Flawless Amethyst
+ItemDisplay[glw]: %ORANGE%[%ORANGE%Diamond%ORANGE%] //Flawless Diamond
+ItemDisplay[glg]: %ORANGE%[%ORANGE%Emeral%ORANGE%] //Flawless Emerald
+ItemDisplay[glr]: %ORANGE%[%ORANGE%Ruby%ORANGE%] //Flawless Ruby
+ItemDisplay[glb]: %ORANGE%[%ORANGE%Sapphire%ORANGE%] //Flawless Sapphire
+ItemDisplay[gly]: %ORANGE%[%ORANGE%Topaz%ORANGE%] //Flawless Topaz
+ItemDisplay[skl]: %ORANGE%[%ORANGE%Skull%ORANGE%] //Flawless Skull
 
 ItemDisplay[gpv]: %PURPLE%Amethyst //Perfect Gems
 ItemDisplay[gpw]: %WHITE%Diamond
@@ -111,8 +111,8 @@ ItemDisplay[RW ETH]: %GRAY%E.%NAME% %RED%[%WHITE%%SOCKETS%%RED%]
 ItemDisplay[MAG !ID rin CLVL>69]: //Ignore unidentified magic rings at level 70+.
 //ItemDisplay[MAG !ID jew ILVL<66]: //Ignore unidentified magic jewels unless they have an item level high enough for ED +40%.
 
-ItemDisplay[MAG !ID (cm1 OR cm2 OR cm3 OR jew)]: %DOT-9B%%GREEN%####   %BLUE%%NAME% %WHITE%[%GRAY%Lv.%ILVL%%WHITE%]   %GREEN%#### //Magical Unid SC/GC
-ItemDisplay[MAG !ID cm2 CLVL<76]: %BLUE%%NAME% //Magical Unid Large Charm
+ItemDisplay[MAG !ID (cm1 OR cm2 OR cm3 OR jew)]: %DOT-9B%%GREEN%####   %ORANGE%%NAME% %WHITE%[%GRAY%Lv.%ILVL%%WHITE%]   %GREEN%#### //Magical Unid SC/GC
+ItemDisplay[MAG !ID cm2 CLVL<76]: %ORANGE%%NAME% //Magical Unid Large Charm
 ItemDisplay[RARE !ID (jew OR rin OR amu)]: %DOT-9B%%GREEN%#### %YELLOW%%NAME% %GREEN%####//Rare Jewel, Ring, Ammy
 ItemDisplay[RARE !ID (ci0 OR ci1 OR ci2 OR ci3)]: %DOT-9B%%GREEN%#### %YELLOW%%NAME% %GREEN%#### //Rare Circlets
 
