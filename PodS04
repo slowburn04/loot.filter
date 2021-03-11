@@ -33,8 +33,8 @@ ItemDisplay[tsc]: %BLUE%°%GRAY%tp
 ItemDisplay[isc CLVL<80]: %RED%°%GRAY%id
 ItemDisplay[yps]: %GREEN%!%WHITE%a
 ItemDisplay[key]: %GRAY%key
-ItemDisplay[rvl]: %PURPLE%R %WHITE%Full
-ItemDisplay[rvs CLVL<99]: %PURPLE%r %WHITE%Mini%
+ItemDisplay[rvl]: %GREEN%R %PURPLE%Full
+ItemDisplay[rvs CLVL<99]: %GREEN%r %PURPLE%Mini%
 ItemDisplay[hp5 CLVL>79]: %RED%!%WHITE%Hp
 ItemDisplay[mp5 CLVL>79]: %BLUE%!%WHITE%Mp
 ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4 OR hp5) CLVL<80]: %RED%!%WHITE%Hp
