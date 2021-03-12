@@ -593,11 +593,11 @@ ItemDisplay[RW]: %NAME%
 //ItemDisplay[!UNI (cm1 OR cm3 OR cm2)]: %ORANGE%%NAME%%GRAY%[%ILVL%]
 ItemDisplay[UNI (cm1 OR cm2 OR cm3)]: %MAP%%NAME%
 ItemDisplay[!UNI cm2]: %NAME%%GRAY%[%ILVL%]
-ItemDisplay[!UNI !ID cm1]: %GREEN%*%ORANGE%%MAP%%NAME%%GRAY%[%ILVL%]
-ItemDisplay[!UNI ID cm1]: %GREEN%*%ORANGE%%NAME%%GRAY%[%ILVL%]
-ItemDisplay[!UNI cm3 !ID ILVL<50]:%GREEN%*%ORANGE%%NAME%%GRAY%[%ILVL%]
-ItemDisplay[!UNI cm3 !ID ILVL>49]: %GREEN%*%ORANGE%%MAP%%NAME%%GRAY%[%ILVL%]
-ItemDisplay[!UNI cm3 ID ILVL>49]: %GREEN%*%ORANGE%%NAME%%GRAY%[%ILVL%]
+ItemDisplay[!UNI !ID cm1]: %GREEN%**%ORANGE%%MAP%%NAME%%GRAY%[%ILVL%]
+ItemDisplay[!UNI ID cm1]: %GREEN%**%ORANGE%%NAME%%GRAY%[%ILVL%]
+ItemDisplay[!UNI cm3 !ID ILVL<50]:%GREEN%**%ORANGE%%NAME%%GRAY%[%ILVL%]
+ItemDisplay[!UNI cm3 !ID ILVL>49]: %GREEN%**%ORANGE%%MAP%%NAME%%GRAY%[%ILVL%]
+ItemDisplay[!UNI cm3 ID ILVL>49]: %GREEN%**%ORANGE%%NAME%%GRAY%[%ILVL%]
 
 
 //
