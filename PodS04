@@ -183,7 +183,8 @@ ItemDisplay[xyz]: %TAN%%NAME%
 //ItemDisplay[skc CLVL>19]:
 ItemDisplay[gcv ]: 
 ItemDisplay[gcw ]: 
-ItemDisplay[gcg ]: ItemDisplay[gcr ]:
+ItemDisplay[gcg ]: 
+ItemDisplay[gcr ]:
 ItemDisplay[gcb ]: 
 ItemDisplay[gcy ]: 
 ItemDisplay[skc ]: 
@@ -503,7 +504,7 @@ ItemDisplay[MAG rin ILVL=85]: %BLUE%%NAME%
 ItemDisplay[MAG rin]: %BLUE%%NAME%%WHITE% 
 
 //Blue Jewels for crafting
-ItemDisplay[MAG !ID jew]: %MAP%%GREEN%Ø%ORANGE%Jewel
+ItemDisplay[MAG !ID jew]: %MAP%%GREEN%*%ORANGE%Jewel
 
 //Gloves
 //Blood Gloves (Heavy Gloves/Sharkskin/Vampirebone) + NEF + RUBY + JEWEL
@@ -592,11 +593,11 @@ ItemDisplay[RW]: %NAME%
 //ItemDisplay[!UNI (cm1 OR cm3 OR cm2)]: %ORANGE%%NAME%%GRAY%[%ILVL%]
 ItemDisplay[UNI (cm1 OR cm2 OR cm3)]: %MAP%%NAME%
 ItemDisplay[!UNI cm2]: %NAME%%GRAY%[%ILVL%]
-ItemDisplay[!UNI !ID cm1]: %ORANGE%%MAP%%NAME%%GRAY%[%ILVL%]
-ItemDisplay[!UNI ID cm1]: %ORANGE%%NAME%%GRAY%[%ILVL%]
-ItemDisplay[!UNI cm3 !ID ILVL<50]:%ORANGE%%NAME%%GRAY%[%ILVL%]
-ItemDisplay[!UNI cm3 !ID ILVL>49]: %ORANGE%%MAP%%NAME%%GRAY%[%ILVL%]
-ItemDisplay[!UNI cm3 ID ILVL>49]: %ORANGE%%NAME%%GRAY%[%ILVL%]
+ItemDisplay[!UNI !ID cm1]: %GREEN%*%ORANGE%%MAP%%NAME%%GRAY%[%ILVL%]
+ItemDisplay[!UNI ID cm1]: %GREEN%*%ORANGE%%NAME%%GRAY%[%ILVL%]
+ItemDisplay[!UNI cm3 !ID ILVL<50]:%GREEN%*%ORANGE%%NAME%%GRAY%[%ILVL%]
+ItemDisplay[!UNI cm3 !ID ILVL>49]: %GREEN%*%ORANGE%%MAP%%NAME%%GRAY%[%ILVL%]
+ItemDisplay[!UNI cm3 ID ILVL>49]: %GREEN%*%ORANGE%%NAME%%GRAY%[%ILVL%]
 
 
 //
