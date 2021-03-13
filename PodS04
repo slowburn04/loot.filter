@@ -39,7 +39,7 @@ ItemDisplay[fed]: %MAP%%GREEN%Destruction [Baal]
 ItemDisplay[toa]: %MAP%%PURPLE%Token of Absolution
 //PoD Items
 ItemDisplay[std]: %NAME%
-ItemDisplay[cx5]: %MAP%%GREEN%####%PURPLE%Corrupt Orb%GREEN%####
+ItemDisplay[cx5]: %MAP%%GREEN%*    *%PURPLE%Orb of Corruption%GREEN%*    *
 ItemDisplay[cx6]: %PURPLE%Diablo's Soulstone
 ItemDisplay[cx7]: %MAP%%RED%ØØØØØØØØØ %PURPLE%KEY OF CHAOS%RED% ØØØØØØØØØ
 
@@ -167,8 +167,8 @@ ItemDisplay[xyz]: %TAN%%NAME%
 //GEMS
 //1. Amethyst 2. Diamond 3. Emerald 4. Ruby 5. Sapphire 6. Topaz 7. Skull
 //Gems Chipped
-//ItemDisplay[gcv CLVL<20]: chipped amethyst
-//ItemDisplay[gcw CLVL<20]: chipped diamond
+//ItemDisplay[gcv CLVL<99]: %TAN%chip
+//ItemDisplay[gcw CLVL<99]: %TAN%chip
 //ItemDisplay[gcg CLVL<20]: chipped emerald
 //ItemDisplay[gcr CLVL<20]: chipped ruby
 //ItemDisplay[gcb CLVL<20]: chipped sapphire
@@ -279,9 +279,9 @@ ItemDisplay[UNI !ETH !ID xea]: %NOTIFY-PURPLE%%NL%%RED%Ø %PURPLE%Skin of the Vi
 //Naj's Chest
 ItemDisplay[SET !ETH !ID ult]: NAJ'S PLATE
 //Duriel's Shell
-ItemDisplay[UNI !ID xrs]: %NOTIFY-PURPLE%%RED%ØØ %PURPLE% %NAME% %RED%ØØØ
+ItemDisplay[UNI !ID xrs]:%NAME%
 //Shaftstop
-ItemDisplay[UNI !ETH !ID xhn]: %NAME%
+ItemDisplay[UNI !ETH !ID xhn]: %GREEN%# # %NAME%%GREEN% # #
 //ETH Shaftstop 
 ItemDisplay[UNI !ID xhn]: %ETH%%NAME%
 //Tyrael's Might
@@ -293,7 +293,7 @@ ItemDisplay[SET !ETH !ID uth]: %MAP%%NL%%RED%ØØØØØØØ %PURPLE%Tal's Armour
 //Immortal King Armour
 ItemDisplay[SET !ETH !ID uar]: %MAP%%RED%Ø %PURPLE%IK's Armour%RED% Ø
 // Corpsemourn
-ItemDisplay[UNI !ETH !ID xar]: %MAP%%PURPLE%%NAME%
+ItemDisplay[UNI !ETH !ID xar]: %MAP%%NAME%
 // Gladiator's Bane
 ItemDisplay[UNI !ETH !ID utu]: %MAP%%RED%ØØØ %PURPLE%Gladiator's Bane%RED%ØØØ 
 
@@ -347,7 +347,7 @@ ItemDisplay[UNI !ETH !ID obc]: %MAP%%PURPLE%%NAME%
 //Windforce
 ItemDisplay[UNI !ID 6lw]: %MAP%%RED%ØØ  %PURPLE%WINDFORCE%RED% ØØ 
 //Reaper's Toll
-ItemDisplay[UNI !ETH !ID 7s8]: %NOTIFY-PURPLE%%NL%%RED%ØØØØØØØØ %PURPLE%REAPERS TOLL%RED% ØØØØØØØØØ%NL%
+ItemDisplay[UNI !ETH !ID 7s8]: %RED%Ø %PURPLE%REAPERS TOLL%RED% Ø
 //ETH Reaper's Toll
 ItemDisplay[UNI ETH !ID 7s8]: %MAP%ETH Reaper's Toll
 //Lacerator
@@ -391,8 +391,8 @@ ItemDisplay[SET !ETH !ID lsd]:  %MAP%%RED%ØØ %GREEN% Cleglaw Sword %RED%ØØ
 
 
 //Arrows
-ItemDisplay[UNI !ID aq2]: %MAP%Unique %NAME%
-ItemDisplay[UNI !ID cq2]: %MAP%Unique %NAME%
+ItemDisplay[UNI !ID aq2]: %MAP% %NAME%
+ItemDisplay[UNI !ID cq2]: %MAP% %NAME%
 
 
 //Shields
@@ -412,8 +412,8 @@ ItemDisplay[UNI !ETH !ID pac]: %MAP%%NAME%
 ItemDisplay[UNI !ETH !ID xts]: %MAP%%NAME% 
 
 //UNIQUE Rings Amulets Jewels Charms
-ItemDisplay[UNI !ID rin]: %NOTIFY-PURPLE%%NL%%RED%ØØØØØ %PURPLE%UNIQUE RING HYPE %RED%ØØØØØ%NL%
-ItemDisplay[UNI !ID amu]: %NOTIFY-PURPLE%%NL%%RED%ØØØØØ %PURPLE%UNIQUE AMULET HYPE %RED%ØØØØØ%NL%
+ItemDisplay[UNI !ID rin]: %NOTIFY-PURPLE%%NL%%RED%ØØØØØ %PURPLE%FAKE SOJ HYPE %RED%ØØØØØ%NL%
+ItemDisplay[UNI !ID amu]: %NOTIFY-PURPLE%%NL%%RED%ØØØØØ %PURPLE%FAKE MARA'S HYPE %RED%ØØØØØ%NL%
 ItemDisplay[UNI !ID jew]: %NOTIFY-PURPLE%%NL%%RED%ØØØØØØØ%YELLOW%Ø%GREEN%Ø%BLUE%Ø %PURPLE%RAINBOW FACET %BLUE%Ø%GREEN%Ø%YELLOW%Ø%RED%ØØØØØØØ%NL%
 ItemDisplay[UNI !ID cm3]: %NOTIFY-PURPLE%%RED%Ø %GOLD%Gheeds %RED%Ø
 ItemDisplay[SET !ID amu]: %MAP%ØØØØØ Set Amulet ØØØØØ
