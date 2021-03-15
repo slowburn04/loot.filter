@@ -1,0 +1,1030 @@
+// Visual Test lines with tp scroll
+//ItemDisplay[tsc]: Ø%GREEN%!%WHITE%TPØ
+//ItemDisplay[tsc]: %NOTIFY-RED%%GREEN%Ø        Ø%NL%%NL%%MAP%%RED%ØØØØØØØØØØØØØØØØ %PURPLE%LO 28%RED% ØØØØØØØØØØØØØØØØ%NL%%NL%%GREEN%Ø                                                 Ø
+//ItemDisplay[tsc]: %NOTIFY-PURPLE%%SOUND-1346%%NL%%NL%%RED%ØØØØØØØØØØ %PURPLE%VEX 26%RED% ØØØØØØØØØØ%NL%%NL%
+
+
+//Basics
+//Hide Gold Piles Smaller Than (<) X
+ItemDisplay[GOLD<100 CLVL<20]:
+ItemDisplay[GOLD<2000 (CLVL>19 AND CLVL<=69)]:
+ItemDisplay[GOLD<3000 CLVL>69]:
+//Health & Mana Potions
+ItemDisplay[rvl]: %GREEN%R %PURPLE%Full
+ItemDisplay[hp5]: %RED%!%WHITE%H+
+ItemDisplay[mp5]: %BLUE%!%WHITE%M+
+ItemDisplay[rvs]: %GREEN%r %PURPLE%Mini
+ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%Minor Heal
+ItemDisplay[hp2 CLVL<18]: %RED%!%WHITE%Light Heal
+ItemDisplay[hp3 CLVL<24]: %RED%!%WHITE%Healing
+ItemDisplay[hp4 CLVL<60]: %RED%!%WHITE%H
+ItemDisplay[mp1 CLVL<15]: %BLUE%!%WHITE%Minor Mana
+ItemDisplay[mp2 CLVL<20]: %BLUE%!%WHITE%Light Manaf
+ItemDisplay[mp3 CLVL<26]: %BLUE%!%WHITE%Mana
+ItemDisplay[mp4 CLVL<99]: %BLUE%!%WHITE%M
+
+//Essences (Respec Token)
+
+ItemDisplay[tes]: %MAP%%GOLD%Suffering [Andariel]
+ItemDisplay[ceh]: %MAP%%GOLD%Hatred [Mephisto]
+ItemDisplay[bet]: %MAP%%GOLD%Terror [Diablo]
+ItemDisplay[fed]: %MAP%%GREEN%Destruction [Baal]
+ItemDisplay[toa]: %MAP%%PURPLE%Token of Absolution
+//PoD Items
+ItemDisplay[std]: %NAME%
+ItemDisplay[cx5]: %MAP%%GREEN%*    *%PURPLE%Orb of Corruption%GREEN%*    *
+ItemDisplay[cx6]: %PURPLE%Diablo's Soulstone
+ItemDisplay[cx7]: %MAP%%RED%ØØØØØØØØØ %PURPLE%KEY OF CHAOS%RED% ØØØØØØØØØ
+
+//Maps
+
+ItemDisplay[ma1]: %MAP% %PURPLE%%NAME% 
+ItemDisplay[ma2]: %MAP% %PURPLE%%NAME%
+ItemDisplay[ma3]: %MAP% %PURPLE%%NAME%
+ItemDisplay[ma4]: %MAP% %PURPLE%%NAME%
+ItemDisplay[ma5]: %MAP% %PURPLE%%NAME%
+ItemDisplay[ma6]: %MAP% %PURPLE%%NAME%
+ItemDisplay[ma7]: %MAP% %PURPLE%%NAME%
+ItemDisplay[ma8]: %MAP% %PURPLE%%NAME%
+ItemDisplay[ma9]: %MAP% %PURPLE%%NAME%
+ItemDisplay[ma10]: %MAP% %PURPLE%%NAME%
+ItemDisplay[maz]: %MAP% %PURPLE%%NAME%
+
+
+
+// Meme items
+ItemDisplay[NMAG EQ2 !RW SOCK>0 STAT45=30]: %GREEN%Tal Armor
+
+
+//Wirt's Leg
+ItemDisplay[leg]: %NAME%
+//Uber Keys
+ItemDisplay[pk1]: %NOTIFY-ORANGE%%PURPLE%Terror [Countess]
+ItemDisplay[pk2]: %NOTIFY-ORANGE%%PURPLE%Hate [Summoner]
+ItemDisplay[pk3]: %NOTIFY-ORANGE%%PURPLE%Destruction [Nihlathak]
+ItemDisplay[dhn]: %NOTIFY-ORANGE%%PURPLE%Diablo's Horn
+ItemDisplay[bey]: %NOTIFY-ORANGE%%PURPLE%Baal's Eye
+ItemDisplay[mbr]: %NOTIFY-ORANGE%%PURPLE%Mephisto's Brain
+//Ear
+ItemDisplay[ear]: %PURPLE% You Died Bitch %NAME%
+
+//Utility
+//ItemDisplay[isc]: %GREEN%!%WHITE%ID
+ItemDisplay[isc CLVL<41]: %GREEN%!%WHITE%ID
+ItemDisplay[isc CLVL>40]:
+//
+ItemDisplay[wms CLVL<60]: %GREEN%!%WHITE%Thaw
+ItemDisplay[wms CLVL>59]:
+ItemDisplay[yps]: %GREEN%!%WHITE%a
+//Keys for Locked Chests
+ItemDisplay[key]: %GRAY%Key
+//Tomes
+ItemDisplay[tbk]: %WHITE%Tome of Town Portal
+ItemDisplay[ibk]: %WHITE%Tome of Identify
+//Scrolls
+ItemDisplay[tsc]: %GREEN%!%WHITE%TP
+//Choking, Exploding, Fulminating, Oil, Rancid, Strangling, Stamina 
+ItemDisplay[vps CLVL<55]: %GREEN%!%WHITE%Stamina
+//Hide MAGIC Arrows & Bolts above level 60
+ItemDisplay[aq2 RARE ILVL>60]: %NAME%
+ItemDisplay[aq2 SET ILVL>60]: %NAME%
+ItemDisplay[cq2 RARE ILVL>60]: %NAME%
+ItemDisplay[cq2 SET ILVL>60]: %NAME%
+//
+ItemDisplay[INF ILVL>14 !RW !leg]:
+
+//RUNES 
+//1-16
+ItemDisplay[r01]: %MAP%%TAN%%RUNENAME% 1 
+ItemDisplay[r02]: %MAP%%TAN%%RUNENAME% 2
+ItemDisplay[r03]: %MAP%%TAN%%RUNENAME% 3 
+ItemDisplay[r04]: %MAP%%TAN%%RUNENAME% 4
+ItemDisplay[r05]: %MAP%%TAN%%RUNENAME% 5
+ItemDisplay[r06]: %MAP%%TAN%%RUNENAME% 6
+ItemDisplay[r07]: %NOTIFY-TAN%%ORANGE%%RUNENAME% 7
+ItemDisplay[r08]: %NOTIFY-TAN%%ORANGE%%RUNENAME% 8 (Armor Repair)
+ItemDisplay[r09]: %NOTIFY-TAN%%ORANGE%%RUNENAME% 9 (Weapon Repair)
+ItemDisplay[r10]: %NOTIFY-TAN%%ORANGE%%RUNENAME% 10
+ItemDisplay[r11]: %NOTIFY-TAN%%ORANGE%%RUNENAME% 11
+ItemDisplay[r12]: %NOTIFY-TAN%%ORANGE%%RUNENAME% 12
+ItemDisplay[r13]: %NOTIFY-TAN%%ORANGE%%RUNENAME% 13
+ItemDisplay[r14]: %NOTIFY-TAN%%ORANGE%%RUNENAME% 14
+ItemDisplay[r15]: %NOTIFY-TAN%%ORANGE%%RUNENAME% 15
+ItemDisplay[r16]: %NOTIFY-TAN%%ORANGE%%RUNENAME% 16
+ItemDisplay[r17]: %NOTIFY-TAN%%ORANGE%%RUNENAME% 17
+ItemDisplay[r18]: %NOTIFY-TAN%%ORANGE%%RUNENAME% 18
+ItemDisplay[r19]: %NOTIFY-TAN%%ORANGE%%RUNENAME% 19
+ItemDisplay[r20]: %NOTIFY-ORANGE%%NL%%RED%Ø %PURPLE%LEM 20%RED% Ø%NL%
+ItemDisplay[r21]: %NOTIFY-ORANGE%%NL%%RED%Ø %PURPLE%PUL 21%RED% Ø%NL%
+ItemDisplay[r22]: %NOTIFY-ORANGE%%NL%%RED%ØØ %PURPLE%UM 22%RED% ØØ%NL%
+ItemDisplay[r23]: %NOTIFY-ORANGE%%NL%%RED%ØØ %PURPLE%MAL 23%RED% ØØ%NL%
+//24-33
+ItemDisplay[r24]: %NOTIFY-ORANGE%%NL%%RED%ØØØ %PURPLE%IST 24%RED% ØØØ%NL%
+ItemDisplay[r25]: %NOTIFY-ORANGE%%NL%%RED%ØØØØ %PURPLE%GUL 25%RED% ØØØØ%NL%
+ItemDisplay[r26]: %NOTIFY-PURPLE%%NL%%NL%%RED%ØØØØØØØØØØ %PURPLE%VEX 26%RED% ØØØØØØØØØØ%NL%%NL%
+ItemDisplay[r27]: %NOTIFY-PURPLE%%NL%%NL%%RED%ØØØØØØØØØØ %PURPLE%OHM 27%RED% ØØØØØØØØØØ%NL%%NL%
+ItemDisplay[r28]: %NOTIFY-PURPLE%%NL%%NL%%RED%ØØØØØØØØØØØØØØØØ %PURPLE%LO 28%RED% ØØØØØØØØØØØØØØØØ%NL%%NL%
+ItemDisplay[r29]: %NOTIFY-PURPLE%%NL%%NL%%RED%ØØØØØØØØØØØØØØØØ %PURPLE%SUR 29%RED% ØØØØØØØØØØØØØØØØ%NL%%NL%
+ItemDisplay[r30]: %NOTIFY-PURPLE%%NL%%NL%%RED%ØØØØØØØØØØØØØØØØØØØ %PURPLE%BER 30%RED%ØØØØØØØØØØØØØØØØØØØ %NL%%NL%
+ItemDisplay[r31]: %NOTIFY-PURPLE%%NL%%NL%%RED%ØØØØØØØØØØØØØØØØØØ %PURPLE%JAH 31%RED% ØØØØØØØØØØØØØØØØØØ%NL%%NL%
+ItemDisplay[r32]: %NOTIFY-PURPLE%%NL%%NL%%RED%ØØØØØØØØØØ %PURPLE%CHAM 32%RED% ØØØØØØØØØØ%NL%%NL%
+ItemDisplay[r33]: %NOTIFY-PURPLE%%NL%%NL%%RED%ØØØØØØØØØØØØØØØ %PURPLE%ZOD 33%RED% ØØØØØØØØØØØØØØØ%NL%%NL%
+
+//misc quest
+ItemDisplay[bbb]: %TAN%%NAME%
+ItemDisplay[ass]: %TAN%%NAME%
+ItemDisplay[bkd]: %TAN%%NAME%
+ItemDisplay[bks]: %TAN%%NAME%
+ItemDisplay[box]: %TAN%%NAME%
+ItemDisplay[g34]: %TAN%%NAME%
+ItemDisplay[ice]: %TAN%%NAME%
+ItemDisplay[j34]: %MAP%%TAN%%NAME%
+ItemDisplay[mss]: %TAN%%NAME%
+ItemDisplay[qbr]: %TAN%%NAME%
+ItemDisplay[qey]: %TAN%%NAME%
+ItemDisplay[qhr]: %TAN%%NAME%
+ItemDisplay[tr1]: %TAN%%NAME%
+ItemDisplay[tr2]: %TAN%%NAME%
+ItemDisplay[xyz]: %TAN%%NAME%
+
+
+//GEMS
+//1. Amethyst 2. Diamond 3. Emerald 4. Ruby 5. Sapphire 6. Topaz 7. Skull
+//Gems Chipped
+//ItemDisplay[gcv CLVL<99]: %TAN%chip
+//ItemDisplay[gcw CLVL<99]: %TAN%chip
+//ItemDisplay[gcg CLVL<20]: chipped emerald
+//ItemDisplay[gcr CLVL<20]: chipped ruby
+//ItemDisplay[gcb CLVL<20]: chipped sapphire
+//ItemDisplay[gcy CLVL<20]: chipped topaz
+//ItemDisplay[skc CLVL<20]: chipped skull
+//Gems Flawed
+ItemDisplay[gfv CLVL<30]: flawed amethyst
+ItemDisplay[gfw CLVL<30]: flawed diamond
+ItemDisplay[gfg CLVL<30]: flawed emerald
+ItemDisplay[gfr CLVL<30]: flawed ruby
+ItemDisplay[gfb CLVL<30]: flawed sapphire
+ItemDisplay[gfy CLVL<30]: flawed topaz
+ItemDisplay[skf CLVL<30]: flawed skull
+//Gems Normal
+ItemDisplay[gsv CLVL<81]: amethyst
+ItemDisplay[gsw CLVL<81]: diamond
+ItemDisplay[gsg CLVL<81]: emerald
+ItemDisplay[gsr CLVL<81]: ruby
+ItemDisplay[gsb CLVL<81]: sapphire
+ItemDisplay[gsy CLVL<81]: topaz
+ItemDisplay[sku CLVL<81]: skull
+//Gems flawless
+ItemDisplay[gzv]: %ORANGE%Amethyst
+ItemDisplay[glw]: %ORANGE%Diamond
+ItemDisplay[glg]: %ORANGE%Emerald
+ItemDisplay[glr]: %ORANGE%Ruby
+ItemDisplay[glb]: %ORANGE%Sapphire
+ItemDisplay[gly]: %ORANGE%Topaz
+ItemDisplay[skl]: %ORANGE%Skull
+//Gems Perfect
+ItemDisplay[gpv]: %ORANGE%P AMETHYST
+ItemDisplay[gpw]: %ORANGE%P DIAMOND
+ItemDisplay[gpg]: %ORANGE%P EMERALD
+ItemDisplay[gpr]: %ORANGE%P RUBY
+ItemDisplay[gpb]: %ORANGE%P SAPPHIRE
+ItemDisplay[gpy]: %ORANGE%P TOPAZ
+ItemDisplay[skz]: %ORANGE%P SKULL
+// High level hidden gems
+
+//Uniques
+//
+//Helms
+//Griffon's Eye
+ItemDisplay[UNI !ETH !ID ci3]: %NOTIFY-PURPLE%%NL%%RED%ØØØØØØØØØØ %PURPLE%%NAME%%RED% ØØØØØØØØØØ%NL%
+//Shako
+ItemDisplay[UNI !ETH !ID uap]: %NOTIFY-PURPLE%%NL%%RED%ØØØØØØ %PURPLE%SHAKO%RED% ØØØØØØ%NL%
+//Crown of Ages
+ItemDisplay[UNI !ETH !ID urn]: %MAP%%PURPLE%%NAME%
+//Andariel's Visage
+ItemDisplay[UNI !ETH !ID usk]: %NOTIFY-PURPLE%%NL%%RED%ØØØØØØ %PURPLE%Andy's%RED% ØØØØØØ%NL%
+//Vampire Gaze
+ItemDisplay[UNI !ETH !ID xh9]: %NOTIFY-ORANGE%%PURPLE%Vamp Gaze
+//Arreat's Face
+ItemDisplay[UNI !ETH !ID baa]: %NOTIFY-ORANGE%%RED%ØØØ %PURPLE%Arreat's Face%RED% ØØØ
+//Jalal's Mane
+ItemDisplay[UNI !ETH !ID dra]: %MAP%%RED%ØØØ %PURPLE%%NAME%%RED% ØØØ
+//Ravenlore
+ItemDisplay[UNI !ETH !ID dre]: %MAP%%NAME%
+//G Face
+ItemDisplay[SET !ETH !ID xhm]: %NOTIFY-ORANGE%%RED%ØØØØØØ %GREEN%G face%RED% ØØØØØØ
+//STEEL SHADE
+ItemDisplay[UNI !ID ulm]: %NOTIFY-PURPLE%%NL%%RED%ØØØØØ %PURPLE%STEEL SHADE%RED% ØØØØØ%NL%
+//Trangs Helm
+ItemDisplay[SET !ETH !ID uh9]: %MAP%Trang-Oul's Helm
+//Stealskull
+ItemDisplay[UNI !ETH !ID xlm]: %MAP%%NAME%
+//Ondal's Almighty (-50% cdr)
+ItemDisplay[UNI !ETH !ID uhm]: %MAP%%RED%Ø %GREEN%%NAME%%RED% Ø
+
+
+//Armor
+//Viper Magi
+ItemDisplay[UNI !ETH !ID xea]: %NOTIFY-PURPLE%%NL%%RED%Ø %PURPLE%Skin of the Vipermagi %RED%Ø%NL%
+//Naj's Chest
+ItemDisplay[SET !ETH !ID ult]: NAJ'S PLATE
+//Duriel's Shell
+ItemDisplay[UNI !ID xrs]:%NAME%
+//Shaftstop
+ItemDisplay[UNI !ETH !ID xhn]: %GREEN%# # %NAME%%GREEN% # #
+//ETH Shaftstop 
+ItemDisplay[UNI !ID xhn]: %ETH%%NAME%
+//Tyrael's Might
+ItemDisplay[UNI !ETH !ID uar]: %NOTIFY-PURPLE%%NL%%RED%ØØØØØØØØØØØ %PURPLE%Tyrael's%RED%ØØØØØØØØØØØ %NL%
+//Guardian Angel
+ItemDisplay[UNI !ETH !ID xlt]: %MAP%%PURPLE%%NAME%
+//Tal Rasha Armour
+ItemDisplay[SET !ETH !ID uth]: %MAP%%NL%%RED%ØØØØØØØ %PURPLE%Tal's Armour%RED% ØØØØØØØ%NL%
+//Immortal King Armour
+ItemDisplay[SET !ETH !ID uar]: %MAP%%RED%Ø %PURPLE%IK's Armour%RED% Ø
+// Corpsemourn
+ItemDisplay[UNI !ETH !ID xar]: %MAP%%NAME%
+// Gladiator's Bane
+ItemDisplay[UNI !ETH !ID utu]: %MAP%%RED%ØØØ %PURPLE%Gladiator's Bane%RED%ØØØ 
+
+
+//Gloves
+//Dracul's Grasp
+ItemDisplay[UNI !ETH !ID uvg]: %NOTIFY-PURPLE%%RED%Ø %PURPLE% %NAME% %RED%Ø
+//Steelrend
+ItemDisplay[UNI !ETH !ID uhg]: %MAP%%NAME%
+//Soul Drainer
+ItemDisplay[UNI !ETH !ID umg]: %MAP%%RED%Ø %PURPLE% %NAME% %RED%Ø
+//Laying Of Hands
+ItemDisplay[SET !ETH !ID ulg]: %MAP%%NL%%RED%ØØØ %GREEN%Laying Of Hands%RED% ØØØ%NL%
+//Trang-Ouls Claws
+ItemDisplay[SET !ETH !ID xmg]: %MAP%%NL%%RED%ØØ%GREEN% Trang Gloves %RED%ØØ %NL%
+//Magefist
+ItemDisplay[UNI !ETH !ID tgl]: %MAP%%PURPLE% Magefist
+
+//Belts
+//Arachnid Mesh
+ItemDisplay[UNI !ETH !ID ulc]: %NOTIFY-PURPLE%%NL%%RED%ØØØØØØØØØ%PURPLE%%NAME%%RED% ØØØØØØØØØ%NL%
+//Verdungo's Hearty Cord
+ItemDisplay[UNI !ETH !ID umc]: %NOTIFY-PURPLE%%NL%%RED%Ø %PURPLE%Verdungos %RED%Ø %NL%
+//String of Ears
+ItemDisplay[UNI !ETH !ID zlb]: %NOTIFY-ORANGE%%NL%%PURPLE%String of Ears%NL%
+//Razortail
+ItemDisplay[UNI !ETH !ID zvb]: %MAP%%NAME%
+//Thundergod's Vigor
+ItemDisplay[UNI !ETH !ID zhb]: %NOTIFY-ORANGE%%RED%ØØ%PURPLE%Thundergods Vigor%RED% ØØ
+
+
+//Boots
+//War Traveler
+ItemDisplay[UNI !ETH !ID xtb]: %NOTIFY-PURPLE%%NL%%RED%ØØØ %PURPLE%WAR TRAVELER%RED%ØØØ%NL%
+//Shadow Dancer
+ItemDisplay[UNI !ETH !ID uhb]: %MAP%%NAME%
+//Sandstorm Trek
+ItemDisplay[UNI !ETH !ID uvb]: %MAP%%NAME%
+//Gore Rider
+ItemDisplay[UNI !ETH !ID xhb]:%MAP%%NL%%RED%ØØØØØØØØ %PURPLE%Gores%RED% ØØØØØØØØØ%NL%
+//Aldur's
+ItemDisplay[SET !ETH !ID xtb]: %MAP%Aldur's Boots
+
+//Weapons
+//Death's Fathom, Death's Web, Eschuta's, Windforce, Reaper's Toll, Lacerator, Azurewrath
+ItemDisplay[UNI !ETH !ID obf]: %NOTIFY-PURPLE%%PURPLE%%NAME%
+//Death's Web
+ItemDisplay[UNI !ETH !ID 7gw]: %NOTIFY-PURPLE%%NL%%RED%ØØØØØØØØ %PURPLE%DEATH'S WEB%RED% ØØØØØØØØØ%NL%
+//Eschuta's
+ItemDisplay[UNI !ETH !ID obc]: %MAP%%PURPLE%%NAME%
+//Windforce
+ItemDisplay[UNI !ID 6lw]: %MAP%%RED%ØØ  %PURPLE%WINDFORCE%RED% ØØ 
+//Reaper's Toll
+ItemDisplay[UNI !ETH !ID 7s8]: %RED%Ø %PURPLE%REAPERS TOLL%RED% Ø
+//ETH Reaper's Toll
+ItemDisplay[UNI ETH !ID 7s8]: %MAP%ETH Reaper's Toll
+//Lacerator
+ItemDisplay[UNI !ID 7b8]: %MAP%%NAME%
+//Azurewrath & Lightsabre
+ItemDisplay[UNI !ETH !ID 7cr]: %MAP%%PURPLE%%NAME%
+//Tombreaver
+ItemDisplay[UNI !ETH !ID 7pa]: %MAP%%NAME%
+//Titan's Revenge
+ItemDisplay[UNI !ETH !ID ama]: %MAP%%PURPLE%%NAME%
+// Najs staff
+ItemDisplay[SET !ETH !ID 6cs]: %MAP%Naj's Staff
+// Schaefer's Hammer
+ItemDisplay[UNI !ETH !ID 7wh]: %MAP%%NAME%
+// Warshrike
+ItemDisplay[UNI !ETH !ID 7bk]: %MAP%%RED%Ø %PURPLE%Warshrike %RED%Ø
+// Etheral Edge
+ItemDisplay[UNI !ID 7ba]: %MAP%%PURPLE%Etheral Edge
+// Fleshrender
+ItemDisplay[UNI !ETH !ID 9sp]: %MAP%%PURPLE%Fleshrender
+//Fleshripper
+ItemDisplay[UNI !ID 7kr]: %MAP%%RED%ØØ  %PURPLE%FLESHRIPPER%RED% ØØ 
+// Firelizards Talons
+//ItemDisplay[UNI !ID 7lw]: %MAP%%RED%ØØ  %PURPLE%FireLizards's Talons%RED% ØØ
+// Hexfire
+ItemDisplay[UNI !ETH !ID 9sb]: %MAP%%NAME%
+//Crainte Vomir (-70 def per hit)
+ItemDisplay[UNI !ETH 92h]: %MAP%%PURPLE%Fear Vomit
+//Heaven's Light
+ItemDisplay[UNI !ETH !ID 7sc]: %MAP%%RED%Ø %PURPLE%%NAME% %RED%Ø 
+//Ondals wisdom (ball lightning)
+ItemDisplay[UNI !ETH !ID 6cs]: %MAP%%RED% Ø %PURPLE%ONDALS (BALL LIGHTNING STAFF)%RED% Ø 
+//Frostwind
+//ItemDisplay[UNI !ETH !ID 7ls]: Frostwind
+//Blackoak
+ItemDisplay[UNI !ETH !ID uml]: Black Oak
+//Civerb wep
+ItemDisplay[SET !ETH !ID gsc]: %MAP%%RED%Ø %GREEN% Civerb wep %RED%Ø 
+//Cleglaw sword
+ItemDisplay[SET !ETH !ID lsd]:  %MAP%%RED%ØØ %GREEN% Cleglaw Sword %RED%ØØ
+
+
+//Arrows
+ItemDisplay[UNI !ID aq2]: %MAP% %NAME%
+ItemDisplay[UNI !ID cq2]: %MAP% %NAME%
+
+
+//Shields
+//Stormshield, Homunculus, Herald of Zakarum, Darkforce Spawn(+3PNB), Medusa's Gaze, Radament's Sphere
+ItemDisplay[UNI !ETH !ID uit]: %NOTIFY-PURPLE%%NL%%RED%ØØØØØ %PURPLE%Stormshield%RED% ØØØØØ%NL%
+//Homunculus
+ItemDisplay[UNI !ETH !ID nea]: %MAP%%RED%ØØØ %PURPLE%Homunculus%RED% ØØØ
+//Herald of Zakarum
+ItemDisplay[UNI !ETH !ID pa9]: %NOTIFY-ORANGE%%PURPLE%Herald of Zakarum 
+//Darkforce Spawn
+ItemDisplay[UNI !ETH !ID nef]: %MAP%%NAME%
+//Medusa's Gaze
+ItemDisplay[UNI !ETH !ID uow]: %MAP%%RED%ØØ %PURPLE%MEDUSA'S GAZE%RED% ØØ
+//Alma Negra
+ItemDisplay[UNI !ETH !ID pac]: %MAP%%NAME%
+//Radament's Sphere
+ItemDisplay[UNI !ETH !ID xts]: %MAP%%NAME% 
+
+//UNIQUE Rings Amulets Jewels Charms
+ItemDisplay[UNI !ID rin]: %NOTIFY-PURPLE%%NL%%RED%ØØØØØ %PURPLE%FAKE SOJ HYPE %RED%ØØØØØ%NL%
+ItemDisplay[UNI !ID amu]: %NOTIFY-PURPLE%%NL%%RED%ØØØØØ %PURPLE%FAKE MARA'S HYPE %RED%ØØØØØ%NL%
+ItemDisplay[UNI !ID jew]: %NOTIFY-PURPLE%%NL%%RED%ØØØØØØØ%YELLOW%Ø%GREEN%Ø%BLUE%Ø %PURPLE%RAINBOW FACET %BLUE%Ø%GREEN%Ø%YELLOW%Ø%RED%ØØØØØØØ%NL%
+ItemDisplay[UNI !ID cm3]: %NOTIFY-PURPLE%%RED%Ø %GOLD%Gheeds %RED%Ø
+ItemDisplay[SET !ID amu]: %MAP%ØØØØØ Fake Tal Ammy's ØØØØØ
+
+//UNIQUE&SET Eth/Socket Catchall
+ItemDisplay[UNI ETH SOCK>0 !ID]: ETH %NAME% [%SOCKETS%]
+ItemDisplay[SET ETH SOCK>0 !ID]: ETH %NAME% [%SOCKETS%]
+ItemDisplay[UNI ETH !ID]: ETH %NAME%
+ItemDisplay[SET ETH !ID]: ETH %NAME%
+ItemDisplay[UNI SOCK>0 !ID]: %NAME% [%SOCKETS%]
+ItemDisplay[SET SOCK>0 !ID]: %NAME% [%SOCKETS%]	
+ItemDisplay[UNI !ID]: %NAME%
+ItemDisplay[SET !ID]: %NAME%
+ItemDisplay[UNI ETH SOCK>0]: ETH %NAME% [%SOCKETS%]
+ItemDisplay[SET ETH SOCK>0]: ETH %NAME% [%SOCKETS%]
+ItemDisplay[UNI ETH]: ETH %NAME%
+ItemDisplay[SET ETH]: ETH %NAME%
+ItemDisplay[UNI SOCK>0]: %NAME% [%SOCKETS%]
+ItemDisplay[SET SOCK>0]: %NAME% [%SOCKETS%]
+ItemDisplay[UNI]: %NAME%
+ItemDisplay[SET]: %NAME%
+//
+
+//LivEisJeebus shop lines big thanks to him for these lines
+ItemDisplay[CL5 (CLSK6>0 AND SK271>2)]: %RED%ØØØØØ %PURPLE%LIGHT CLAW%RED% ØØØØØ
+ItemDisplay[CL5 (CLSK6>1 AND SK271>1)]: %RED%ØØØØØ %PURPLE%LIGHT CLAW%RED% ØØØØØ
+ItemDisplay[CL5 (TABSK48>0 AND SK271>2)]: %RED%ØØØØØ %PURPLE%LIGHT CLAW%RED% ØØØØØ
+ItemDisplay[CL5 (TABSK48>1 AND SK271>1)]: %RED%ØØØØØ %PURPLE%LIGHT CLAW%RED% ØØØØØ
+ItemDisplay[CL5 (CLSK6>0 AND SK262>2)]: %RED%ØØØØØ %PURPLE%FIRE CLAW%RED% ØØØØØ
+ItemDisplay[CL5 (CLSK6>1 AND SK262>1)]: %RED%ØØØØØ %PURPLE%FIRE CLAW%RED% ØØØØØ
+ItemDisplay[CL5 (TABSK48>0 AND SK262>2)]: %RED%ØØØØØ %PURPLE%FIRE CLAW%RED% ØØØØØ
+ItemDisplay[CL5 (TABSK48>1 AND SK262>1)]: %RED%ØØØØØ %PURPLE%FIRE CLAW%RED% ØØØØØ
+ItemDisplay[CL5 (CLSK6>0 AND SK272>2)]: %RED%ØØØØØ %PURPLE%FIRE CLAW%RED% ØØØØØ
+ItemDisplay[CL5 (CLSK6>1 AND SK272>1)]: %RED%ØØØØØ %PURPLE%FIRE CLAW%RED% ØØØØØ
+ItemDisplay[CL5 (TABSK48>0 AND SK272>2)]: %RED%ØØØØØ %PURPLE%FIRE CLAW%RED% ØØØØØ
+ItemDisplay[CL5 (TABSK48>1 AND SK272>1)]: %RED%ØØØØØ %PURPLE%FIRE CLAW%RED% ØØØØØ
+ItemDisplay[CL5 (CLSK6>0 AND SK277>2)]: %RED%ØØØØØ %PURPLE%BLADESHIELD CLAW%RED% ØØØØØ
+ItemDisplay[CL5 (CLSK6>1 AND SK277>1)]: %RED%ØØØØØ %PURPLE%BLADESHIELD CLAW%RED% ØØØØØ
+ItemDisplay[CL5 (TABSK48>0 AND SK277>2)]: %RED%ØØØØØ %PURPLE%BLADESHIELD CLAW%RED% ØØØØØ
+ItemDisplay[CL5 (TABSK48>1 AND SK277>1)]: %RED%ØØØØØ %PURPLE%BLADESHIELD CLAW%RED% ØØØØØ
+ItemDisplay[CL5 (CLSK6>0 AND SK278>2)]: %RED%ØØØØØ %PURPLE%VENOM CLAW%RED% ØØØØØ
+ItemDisplay[CL5 (CLSK6>1 AND SK278>1)]: %RED%ØØØØØ %PURPLE%VENOM CLAW%RED% ØØØØØ
+ItemDisplay[CL5 (TABSK49>0 AND SK278>2)]: %RED%ØØØØØ %PURPLE%VENOM CLAW%RED% ØØØØØ
+ItemDisplay[CL5 (TABSK49>1 AND SK278>1)]: %RED%ØØØØØ %PURPLE%VENOM CLAW%RED% ØØØØØ
+
+//Shopping
+ItemDisplay[MAG WEAPON ID TABSK34=3]: %RED%ØØØØØ %PURPLE%BO STICK%RED% ØØØØØ
+ItemDisplay[MAG CL5 ID TABSK48=3]: %RED%ØØØØØ %PURPLE%TRAP CLAW%RED% ØØØØØ
+ItemDisplay[MAG EQ4 !ETH ID TABSK0=3 IAS=20]: %RED%ØØØØØ %PURPLE%BOW GLOVE%RED% ØØØØØ
+ItemDisplay[MAG EQ4 !ETH ID TABSK2=3 IAS=20]: %RED%ØØØØØ %PURPLE%JAVA GLOVE%RED% ØØØØØ
+ItemDisplay[MAG WP13 (TABSK24=3 AND SK121=3)]: %RED%ØØØØØ %PURPLE%FOH WEP%RED% ØØØØØ
+ItemDisplay[MAG WP13 (TABSK25=3 AND SK119=3)]: %RED%ØØØØØ %PURPLE%SANC AURA WEP%RED% ØØØØØ
+
+//Amulets
+ItemDisplay[MAG amu ILVL=85]: %BLUE%%NAME% 
+ItemDisplay[MAG amu ILVL=86]: %BLUE%%NAME% 
+ItemDisplay[MAG amu ILVL=87]: %BLUE%%NAME% 
+ItemDisplay[MAG amu ILVL=88]: %BLUE%%NAME%
+ItemDisplay[MAG amu ILVL=89]: %BLUE%%NAME% 
+ItemDisplay[MAG amu ILVL=90]: %BLUE%%NAME% 
+ItemDisplay[MAG amu ILVL=91]: %BLUE%%NAME% 
+ItemDisplay[MAG amu ILVL=92]: %BLUE%%NAME% 
+ItemDisplay[MAG amu ILVL=93]: %BLUE%%NAME% 
+ItemDisplay[MAG amu ILVL=94]: %BLUE%%NAME%
+ItemDisplay[MAG amu ILVL=95]: %BLUE%%NAME% 
+ItemDisplay[MAG amu ILVL=96]: %BLUE%%NAME%
+ItemDisplay[MAG amu ILVL=97]: %BLUE%%NAME%
+ItemDisplay[MAG amu ILVL=98]: %BLUE%%NAME%
+ItemDisplay[MAG amu ILVL=99]: %BLUE%%NAME%
+ItemDisplay[MAG amu ILVL<85]: %BLUE%%NAME%
+
+//Rings
+ItemDisplay[MAG rin ILVL=71]: %BLUE%%NAME%
+ItemDisplay[MAG rin ILVL=72]: %BLUE%%NAME%
+ItemDisplay[MAG rin ILVL=73]: %BLUE%%NAME%
+ItemDisplay[MAG rin ILVL=74]: %BLUE%%NAME%
+ItemDisplay[MAG rin ILVL=75]: %BLUE%%NAME%
+ItemDisplay[MAG rin ILVL=76]: %BLUE%%NAME%
+ItemDisplay[MAG rin ILVL=77]: %BLUE%%NAME%
+ItemDisplay[MAG rin ILVL=78]: %BLUE%%NAME%
+ItemDisplay[MAG rin ILVL=79]: %BLUE%%NAME%
+ItemDisplay[MAG rin ILVL=80]: %BLUE%%NAME%
+ItemDisplay[MAG rin ILVL=81]: %BLUE%%NAME%
+ItemDisplay[MAG rin ILVL=82]: %BLUE%%NAME%
+ItemDisplay[MAG rin ILVL=83]: %BLUE%%NAME%
+ItemDisplay[MAG rin ILVL=84]: %BLUE%%NAME%
+ItemDisplay[MAG rin ILVL=85]: %BLUE%%NAME%
+ItemDisplay[MAG rin]: %BLUE%%NAME%%WHITE% 
+
+//Blue Jewels for crafting
+ItemDisplay[MAG !ID jew]: %MAP%%GREEN%*%ORANGE%Jewel
+
+//Gloves
+//Blood Gloves (Heavy Gloves/Sharkskin/Vampirebone) + NEF + RUBY + JEWEL
+//Heavy Gloves
+//Sharkskin & Vampirebone Gloves
+
+
+//Hit Power Gloves (Chain Gloves/Heavy Bracers/Vambraces) + ORT + SAPPHIRE + JEWEL
+//Chain Gloves
+//ItemDisplay[MAG vgl ILVL=85]: 
+//ItemDisplay[MAG vgl ILVL=86]: 
+//ItemDisplay[MAG vgl ILVL=87]: 
+//Heavy Bracers & Vambraces
+
+//BELTS
+//Exceptional and Elite Quality belts ONLY
+//Caster Belts (Vampirefang/Sharkskin) + ITH + AMETHYST + JEWEL
+ 
+//Blood Belts (Mithril Coil/Mesh Belt) + TAL + RUBY + JEWEL
+ 
+//BOOTS
+//Caster Boots + Thul + Amethyst + Jewel
+//Wyrmhide Boots
+//Demonhide Boots
+//Boots
+//Rerolling
+ItemDisplay[MAG cm3 ILVL>90]: %NAME% 
+ItemDisplay[MAG cm1 ILVL=47]: %NAME% 
+//
+
+//Runewords
+ItemDisplay[RW]: %NAME%
+
+//Charms
+
+//ItemDisplay[!UNI cm2 CLVL<40]%NAME%%GRAY%[%ILVL%]
+//ItemDisplay[!UNI cm2 !ID CLVL>89]:
+//ItemDisplay[!UNI (cm1 OR cm3 OR cm2)]: %ORANGE%%NAME%%GRAY%[%ILVL%]
+ItemDisplay[UNI (cm1 OR cm2 OR cm3)]: %MAP%%NAME%
+ItemDisplay[!UNI cm2]: %NAME%%GRAY%[%ILVL%]
+ItemDisplay[!UNI !ID cm1]: %GREEN%**%ORANGE%%MAP%%NAME%%GRAY%[%ILVL%]
+ItemDisplay[!UNI ID cm1]: %GREEN%**%ORANGE%%NAME%%GRAY%[%ILVL%]
+ItemDisplay[!UNI cm3 !ID ILVL<50]:%GREEN%**%ORANGE%%NAME%%GRAY%[%ILVL%]
+ItemDisplay[!UNI cm3 !ID ILVL>49]: %GREEN%**%ORANGE%%MAP%%NAME%%GRAY%[%ILVL%]
+ItemDisplay[!UNI cm3 ID ILVL>49]: %GREEN%**%ORANGE%%NAME%%GRAY%[%ILVL%]
+
+
+//
+
+//BASES
+//Armor
+//ETH Merc Base
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>700 uui]: %GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>700 uea]: %GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>700 ula]: %GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>700 utu]: %GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>700 ung]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>700 ucl]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>700 uhn]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>700 urs]: %GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>700 upl]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>700 uld]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>700 utp]: %GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>700 xar]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>700 xul]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>700 xth]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>600 uui]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>600 uea]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>600 ula]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>600 utu]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>600 ung]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>600 ucl]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>600 uhn]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>600 urs]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>600 upl]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>600 uld]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>600 utp]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>600 xar]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>600 xul]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=3 DEF>600 xth]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
+//Top Tier Dusk Shroud, Archon Plate
+ItemDisplay[uui !ETH NMAG SOCK=3 DEF>440]: %MAP%%GREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[uui !ETH NMAG SOCK=4 DEF>440]: %MAP%%GREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[uui !ETH NMAG SOCK=0 DEF>440]: %MAP%%GREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[utp !ETH NMAG SOCK=3 DEF>500]: %MAP%%GREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[utp !ETH NMAG SOCK=4 DEF>500]: %MAP%%GREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[utp !ETH NMAG SOCK=0 DEF>500]: %MAP%%GREEN%%NAME% %YELLOW%[%SOCKETS%]
+
+//Superior Dusk Shroud, Archon Plate
+ItemDisplay[uui !ETH NMAG SUP SOCK=3 !STAT91=0]: %MAP%%PURPLE% -Req %GREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[uui !ETH NMAG  SUP SOCK=4 !STAT91=0]: %MAP%%PURPLE% -Req %GREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[uui !ETH NMAG  SUP SOCK=0 !STAT91=0]: %%MAP%PURPLE% -Req %GREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[utp !ETH NMAG SUP SOCK=3 !STAT91=0]: %MAP%%PURPLE% -Req %GREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[utp !ETH NMAG SUP SOCK=4 !STAT91=0]: %MAP%%PURPLE% -Req %GREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[utp !ETH NMAG SUP SOCK=0 !STAT91=0]: %MAP%%PURPLE% -Req %GREEN%%NAME% %YELLOW%[%SOCKETS%]
+
+//Standard Dusk Shroud, Archon Plate
+ItemDisplay[uui !ETH NMAG !SOCK=1]: %DARK_GREEN%%NAME% %GRAY%[%SOCKETS%] 
+ItemDisplay[utp !ETH NMAG !SOCK=1]: %DARK_GREEN%%NAME% %GRAY%[%SOCKETS%]
+
+//Any Elite Armor ETH
+ItemDisplay[uui ETH NMAG !SUP SOCK=0]: ETH %NAME%
+ItemDisplay[uea ETH NMAG !SUP SOCK=0]: ETH %NAME%
+ItemDisplay[ula ETH NMAG !SUP SOCK=0]: ETH %NAME%
+ItemDisplay[utu ETH NMAG !SUP SOCK=0]: ETH %NAME%
+ItemDisplay[ung ETH NMAG !SUP SOCK=0]: ETH %NAME%
+ItemDisplay[ucl ETH NMAG !SUP SOCK=0]: ETH %NAME%
+ItemDisplay[uhn ETH NMAG !SUP SOCK=0]: ETH %NAME%
+ItemDisplay[urs ETH NMAG !SUP SOCK=0]: ETH %NAME%
+ItemDisplay[upl ETH NMAG !SUP SOCK=0]: ETH %NAME%
+ItemDisplay[uld ETH NMAG !SUP SOCK=0]: ETH %NAME%
+ItemDisplay[utp ETH NMAG !SUP SOCK=0]: ETH %NAME%
+ItemDisplay[uui ETH NMAG SUP SOCK=0]: ETH %NAME%
+ItemDisplay[uea ETH NMAG SUP SOCK=0]: ETH %NAME%
+ItemDisplay[ula ETH NMAG SUP SOCK=0]: ETH %NAME%
+ItemDisplay[utu ETH NMAG SUP SOCK=0]: ETH %NAME%
+ItemDisplay[ung ETH NMAG SUP SOCK=0]: ETH %NAME%
+ItemDisplay[ucl ETH NMAG SUP SOCK=0]: ETH %NAME%
+ItemDisplay[uhn ETH NMAG SUP SOCK=0]: ETH %NAME%
+ItemDisplay[urs ETH NMAG SUP SOCK=0]: ETH %NAME%
+ItemDisplay[upl ETH NMAG SUP SOCK=0]: ETH %NAME%
+ItemDisplay[uld ETH NMAG SUP SOCK=0]: ETH %NAME%
+ItemDisplay[utp ETH NMAG SUP SOCK=0]: ETH %NAME%
+ItemDisplay[uui ETH NMAG SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[uea ETH NMAG SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[ula ETH NMAG SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[utu ETH NMAG SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[ung ETH NMAG SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[ucl ETH NMAG SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[uhn ETH NMAG SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[urs ETH NMAG SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[upl ETH NMAG SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[uld ETH NMAG SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[utp ETH NMAG SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[uui ETH NMAG !SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[uea ETH NMAG !SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[ula ETH NMAG !SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[utu ETH NMAG !SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[ung ETH NMAG !SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[ucl ETH NMAG !SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[uhn ETH NMAG !SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[urs ETH NMAG !SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[upl ETH NMAG !SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[uld ETH NMAG !SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[utp ETH NMAG !SUP SOCK>1]: ETH %NAME%[%SOCKETS%]
+//Elite Armor Non Eth
+
+ItemDisplay[uea !ETH NMAG !SOCK=1]: %GRAY%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[uui NMAG !SUP SOCK=0]: %NAME%
+ItemDisplay[uea NMAG !SUP SOCK=0]: %GRAY%%NAME%
+ItemDisplay[ula NMAG !SUP SOCK=0]: %GRAY%%NAME%
+ItemDisplay[utu NMAG !SUP SOCK=0]: %GRAY%%NAME%
+ItemDisplay[ung NMAG !SUP SOCK=0]: %GRAY%%NAME%
+ItemDisplay[ucl NMAG !SUP SOCK=0]: %GRAY%%NAME%
+ItemDisplay[uhn NMAG !SUP SOCK=0]: %GRAY%%NAME%
+ItemDisplay[urs NMAG !SUP SOCK=0]: %GRAY%%NAME%
+ItemDisplay[utp NMAG !SUP SOCK=0]: %NAME%ItemDisplay[uui NMAG SUP SOCK=0]: %NAME%
+ItemDisplay[uea NMAG SUP SOCK=0]: %%GRAY%NAME%
+ItemDisplay[ula NMAG SUP SOCK=0]: %GRAY%%NAME%
+ItemDisplay[utu NMAG SUP SOCK=0]: %GRAY%%NAME%
+ItemDisplay[ung NMAG SUP SOCK=0]: %GRAY%%NAME%
+ItemDisplay[ucl NMAG SUP SOCK=0]: %GRAY%%NAME%
+ItemDisplay[uhn NMAG SUP SOCK=0]: %GRAY%%NAME%
+ItemDisplay[urs NMAG SUP SOCK=0]: %GRAY%%NAME%
+ItemDisplay[utp NMAG SUP SOCK=0]: %NAME%
+ItemDisplay[uui NMAG SUP SOCK>1]: %NAME%[%SOCKETS%]
+ItemDisplay[uea NMAG SUP SOCK>1]: %NAME%[%SOCKETS%]
+ItemDisplay[ula NMAG SUP SOCK>1]: %NAME%[%SOCKETS%]
+ItemDisplay[utu NMAG SUP SOCK>1]: %NAME%[%SOCKETS%]
+ItemDisplay[ung NMAG SUP SOCK>1]: %NAME%[%SOCKETS%]
+ItemDisplay[ucl NMAG SUP SOCK>1]: %NAME%[%SOCKETS%]
+ItemDisplay[uhn NMAG SUP SOCK>1]: %NAME%[%SOCKETS%]
+ItemDisplay[urs NMAG SUP SOCK>1]: %NAME%[%SOCKETS%]
+ItemDisplay[upl NMAG SUP SOCK>1]: %NAME%[%SOCKETS%]
+ItemDisplay[uld NMAG SUP SOCK>1]: %NAME%[%SOCKETS%]
+ ItemDisplay[utp NMAG SUP SOCK>1]: %NAME%[%SOCKETS%]
+temDisplay[uui NMAG !SUP SOCK>1]: %NAME%[%SOCKETS%]
+ItemDisplay[uea NMAG !SUP SOCK>1]: %NAME%[%SOCKETS%]
+ItemDisplay[ula NMAG !SUP SOCK>1]: %NAME%[%SOCKETS%]
+ItemDisplay[utu NMAG !SUP SOCK>1]: %NAME%[%SOCKETS%]
+ItemDisplay[ung NMAG !SUP SOCK>1]: %NAME%[%SOCKETS%]
+ItemDisplay[ucl NMAG !SUP SOCK>1]: %NAME%[%SOCKETS%]
+ItemDisplay[uhn NMAG !SUP SOCK>1]: %NAME%[%SOCKETS%]
+ItemDisplay[urs NMAG !SUP SOCK>1]: %NAME%[%SOCKETS%]
+ItemDisplay[upl NMAG !SUP SOCK>1]: %NAME%[%SOCKETS%]
+ItemDisplay[uld NMAG !SUP SOCK>1]: %NAME%[%SOCKETS%]
+ItemDisplay[utp NMAG !SUP SOCK>1]: %NAME%[%SOCKETS%]
+
+//0soc 2soc 3soc Light Plate
+
+//0 soc 2soc 3soc Mage Plate 
+ItemDisplay[NMAG SOCK>1 xtp]:%GRAY%%NAME%[%SOCKETS%]
+
+//Shields
+
+//-Req 4os Monarch, Monarch
+ItemDisplay[uit !ETH !RW  NMAG SOCK=4 !STAT91=0 !STAT91=-10]: %PURPLE% -% Req %RED%Monarch %YELLOW%[%SOCKETS%] 
+ItemDisplay[uit !ETH NMAG SOCK=0 !STAT91=0 !STAT91=-10]: %PURPLE% -% Req %RED%Monarch %YELLOW%[%SOCKETS%] 
+ItemDisplay[uit !ETH NMAG SOCK=0 STAT91=-10]: %RED%Ø%PURPLE% -10% Req %RED%Monarch %YELLOW%[%SOCKETS%] %RED%Ø
+ItemDisplay[uit !ETH !RW NMAG SOCK=4 STAT91=-10]: %RED%ØØØ %PURPLE% -10% Req %RED%Monarch %YELLOW%[%SOCKETS%] %RED%ØØØ
+
+//4os Monarch, Monarch
+ItemDisplay[uit !ETH NMAG DEF>147 SOCK=4]: %MAP%%DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[uit !ETH SOCK=4 NMAG]: %MAP%%DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%] 
+ItemDisplay[uit !ETH SOCK=0 DEF<147 NMAG]: %MAP%%DARK_GREEN%%NAME%%YELLOW%[%SOCKETS%] 
+ItemDisplay[uit !ETH SOCK=0 NMAG]: %WHITE%%NAME%
+//Magic Monarch
+ItemDisplay[uit !ETH MAG !ID]: %NAME% 
+ItemDisplay[uit MAG SOCK=4 FBR=30]: Get Rekt
+
+//Amazon Javelins 
+ItemDisplay[MAG am5 !ID]: %BLUE%%NAME%
+ItemDisplay[MAG ama !ID]: %BLUE%%NAME%
+ItemDisplay[MAG amf !ID]: %BLUE%%NAME%
+ItemDisplay[am5 !ID CLVL<85]: %NAME%
+ItemDisplay[ama !ID CLVL<85]: %NAME%
+ItemDisplay[amf !ID CLVL<85]: %NAME%
+
+//Paladin Shields Top Tier Elite non-eth, Medium-High Eth, Basic (ILVL restriction)
+ItemDisplay[NMAG pab !ETH RES>42 SOCK=4]: %MAP%%GREEN%RES PALLY SHIELD%RED%[%SOCKETS%]
+ItemDisplay[NMAG pab !ETH RES>42 SOCK=3]: %GREEN%RES PALLY SHIELD%RED%[%SOCKETS%]
+ItemDisplay[NMAG pab !ETH RES>42 SOCK=0]: %GREEN%RES PALLY SHIELD
+ItemDisplay[NMAG pab !ETH RES>34 SOCK=4]: %DARK_GREEN%RES PALLY SHIELD%YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG pab !ETH RES>34 SOCK=3]: %DARK_GREEN%RES PALLY SHIELD%YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG pab !ETH RES>34 SOCK=0]: %DARK_GREEN%RES PALLY SHIELD
+ItemDisplay[NMAG pab !ETH STAT17>49 SOCK=4]: %DARK_GREEN%DMG PALLY SHIELD%YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG pab !ETH STAT17>49 SOCK=3]: %DARK_GREEN%DMG PALLY SHIELD%YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG pab !ETH STAT17>49 SOCK=0]: %DARK_GREEN%DMG PALLY SHIELD
+ItemDisplay[NMAG pab ETH STAT17>49 SOCK=0]: %DARK_GREEN%ETH DMG PALLY SHIELD
+ItemDisplay[NMAG pab ETH STAT17>49 SOCK=3]: %DARK_GREEN%ETH DMG PALLY SHIELD%YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG pab ETH STAT17>49 SOCK=4]: %DARK_GREEN%ETH DMG PALLY SHIELD%YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG pab ETH RES>42 SOCK=4]: %MAP%%DARK_GREEN%ETH RES PALLY SHIELD%GRAY%[%SOCKETS%]
+ItemDisplay[NMAG pab ETH RES>42 SOCK=3]: %DARK_GREEN%ETH RES PALLY SHIELD%GRAY%[%SOCKETS%]
+ItemDisplay[NMAG pab ETH RES>42 SOCK=0]: %DARK_GREEN%ETH RES PALLY SHIELD
+ItemDisplay[NMAG paf !ETH RES>42 SOCK=4]: %MAP%%GREEN%RES PALLY SHIELD%RED%[%SOCKETS%]
+ItemDisplay[NMAG paf !ETH RES>42 SOCK=3]: %GREEN%RES PALLY SHIELD%RED%[%SOCKETS%]
+ItemDisplay[NMAG paf !ETH RES>42 SOCK=0]: %GREEN%RES PALLY SHIELD
+ItemDisplay[NMAG paf !ETH RES>34 SOCK=4]: %DARK_GREEN%RES PALLY SHIELD%YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG paf !ETH RES>34 SOCK=3]: %DARK_GREEN%RES PALLY SHIELD%YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG paf !ETH RES>34 SOCK=0]: %DARK_GREEN%RES PALLY SHIELD
+ItemDisplay[NMAG paf !ETH STAT17>49 SOCK=4]: %DARK_GREEN%DMG PALLY SHIELD%YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG paf !ETH STAT17>49 SOCK=3]: %DARK_GREEN%DMG PALLY SHIELD%YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG paf !ETH STAT17>49 SOCK=0]: %DARK_GREEN%DMG PALLY SHIELD
+ItemDisplay[NMAG paf ETH STAT17>49 SOCK=0]: %DARK_GREEN%ETH DMG PALLY SHIELD
+ItemDisplay[NMAG paf ETH STAT17>49 SOCK=3]: %DARK_GREEN%ETH DMG PALLY SHIELD%YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG paf ETH STAT17>49 SOCK=4]: %DARK_GREEN%ETH DMG PALLY SHIELD%YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG paf ETH RES>42 SOCK=4]: %MAP%%DARK_GREEN%ETH RES PALLY SHIELD%GRAY%[%SOCKETS%]
+ItemDisplay[NMAG paf ETH RES>42 SOCK=3]: %DARK_GREEN%ETH RES PALLY SHIELD%GRAY%[%SOCKETS%]
+ItemDisplay[NMAG paf ETH RES>42 SOCK=0]: %DARK_GREEN%ETH RES PALLY SHIELD
+ItemDisplay[NMAG CL3 RES>35 SOCK=2 !ETH CLVL<85]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG CL3 RES>35 SOCK=0 !ETH CLVL<85]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG CL3 RES>35 SOCK=4 !ETH CLVL<85]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG CL3 RES>35 SOCK=3 !ETH CLVL<85]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG CL3 RES>20 SOCK=2 !ETH CLVL<85]: %DARK_GREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG CL3 RES>20 SOCK=0 !ETH CLVL<85]: %DARK_GREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG CL3 RES>20 SOCK=4 !ETH CLVL<85]: %DARK_GREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG CL3 RES>20 SOCK=3 !ETH CLVL<85]: %DARK_GREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG CL3 SOCK=4 CLVL<69]: %GRAY%%NAME% [%SOCKETS%]
+ItemDisplay[NMAG CL3 !ETH RES=45 SOCK=4]: %MAP%%GRAY%RES PALLY SHIELD%GRAY%[%SOCKETS%]
+ItemDisplay[NMAG CL3 !ETH RES=45 SOCK=3]: %MAP%%GRAY%RES PALLY SHIELD%GRAY%[%SOCKETS%]
+ItemDisplay[NMAG CL3 !ETH RES=45 SOCK=0]: %MAP%%GRAY%RES PALLY SHIELD
+
+//Claws
+ItemDisplay[CL5 NMAG SOCK=3 (SK277=3 AND SK278<0)]: %MAP%%RED%Blade Shield & Venom %GREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[CL5 NMAG !9cs !7xf !7cs SOCK=0 (SK277=3 AND SK278<0)]: %MAP%%RED%Blade Shield & Venom %GREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[CL5 NMAG SOCK=3 (SK277=3)]: %MAP%%RED%Blade Shield %GREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[CL5 NMAG !9cs !7xf !7cs SOCK=0 (SK277=3)]: %RED%Blade Shield %GREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[CL5 NMAG SOCK=3 (SK278=3)]: %MAP%%RED%Venom %GREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[CL5 NMAG !9cs !7xf !7cs SOCK=0 (SK278=3)]: %RED%Venom %GREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[CL5 (SK262=3) CLVL<90]: %WHITE%Wake Fire Claw[%SOCKETS%]
+ItemDisplay[CL5 (SK261=3) CLVL<90]: %WHITE%Bolt Sentry Claw[%SOCKETS%]
+ItemDisplay[CL5 (SK271=3) CLVL<90]: %WHITE%Lite Sentry Claw[%SOCKETS%]
+ItemDisplay[CL5 (SK272=3) CLVL<90]: %WHITE%Inferno Claw[%SOCKETS%]
+ItemDisplay[CL5 (SK262<0) CLVL<75]: %GRAY%Wake Fire Claw[%SOCKETS%]
+ItemDisplay[CL5 (SK271<0) CLVL<75]: %GRAY%Lite Sentry Claw[%SOCKETS%]
+ItemDisplay[CL5 (SK261<0) CLVL<75]: %GRAY%Bolt Sentry Claw[%SOCKETS%]
+ItemDisplay[CL5 (SK272<0) CLVL<75]: %GRAY%Inferno Claw[%SOCKETS%]
+ItemDisplay[7ar NMAG !ETH (SK274=1 AND SK275>0) SOCK=3]: %GREEN%Chaos Base Suwayyah  %YELLOW%[%SOCKETS%]
+ItemDisplay[7ar NMAG !ETH (SK274=1 AND SK275>0) SOCK=0]: %GREEN%Chaos Base Suwayyah %YELLOW%[%SOCKETS%]
+ItemDisplay[7tw NMAG !ETH (SK274=1 AND SK275>0) SOCK=3]: %GREEN%Fury Base %YELLOW%[%SOCKETS%]
+ItemDisplay[7tw NMAG !ETH (SK274=1 AND SK275>0) SOCK=0]: %GREEN%Fury Base %YELLOW%[%SOCKETS%]
+ItemDisplay[7ar NMAG !ETH SOCK=3 (SK274>0)]: %GRAY%Chaos Base Suwayyah [%SOCKETS%]
+ItemDisplay[7ar NMAG !ETH SOCK=0 (SK274>0)]: %GRAY%Chaos Base Suwayyah [%SOCKETS%]
+ItemDisplay[7tw NMAG !ETH SOCK=3 (SK274>0)]: %GRAY%Fury Base [%SOCKETS%]
+ItemDisplay[7tw NMAG !ETH SOCK=0 (SK274>0)]: %GRAY%Fury Base [%SOCKETS%]
+ItemDisplay[7ar NMAG !ETH SOCK=3 (SK275>0)]: %GRAY%Chaos Base [%SOCKETS%]
+ItemDisplay[7ar NMAG !ETH SOCK=0 (SK275>0)]: %GRAY%Chaos Base [%SOCKETS%]
+ItemDisplay[7tw NMAG !ETH SOCK=3 (SK275>0)]: %GRAY%Fury Base [%SOCKETS%]
+ItemDisplay[7tw NMAG !ETH SOCK=0 (SK275>0)]: %GRAY%Fury Base [%SOCKETS%]
+// Leveling  bases
+ItemDisplay[CL5 EXC NMAG !ETH SOCK=3]: %GRAY% Pattern Base [%SOCKETS%]
+
+// Mindblast Sin Plague bases
+ItemDisplay[7ar NMAG !ETH SOCK=3 (SK273=3)]: %GRAY%Plague Claw [%SOCKETS%]
+ItemDisplay[7ar NMAG !ETH SOCK=0 (SK273=3)]: %GRAY%Plague Claw [%SOCKETS%]
+ItemDisplay[7tw NMAG !ETH SOCK=3 (SK273=3)]: %GRAY%Plague Claw [%SOCKETS%]
+ItemDisplay[7tw NMAG !ETH SOCK=0 (SK273=3]]: %GRAY%Plague Claw [%SOCKETS%]
+
+//Catch all mindblast
+ItemDisplay[CL5 NMAG !ETH SOCK=0 (SK273>0)]: %GRAY%Mind Blast Claw[%SOCKETS%]
+ItemDisplay[CL5 NMAG !ETH SOCK=3 (SK273>0)]: %GRAY%Mind Blast Claw[%SOCKETS%]
+
+
+
+
+
+//SPIRIT
+//4os Crystal Sword, Broad Sword, Larzuk Gaurantee = SPIRIT 
+ItemDisplay[crs NMAG SOCK=4 CLVL<95]: %MAP%%DARK_GREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[bsd NMAG SOCK=4 CLVL<95]: %DARK_GREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[crs NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %DARK_GREEN%%NAME% %WHITE% 4 soc from larzuk
+ItemDisplay[bsd NMAG SOCK=0 (ILVL>25 AND ILVL<75)]: %DARK_GREEN%%NAME% %WHITE% 4 soc from larzuk
+
+//INSIGHT INFINITY
+//INSIGHT or INFINITY 4os Polearms, ETH 4os Polearms, Eth Elite Polearms, ETH Elite 4os Polearms
+
+ItemDisplay[NMAG ETH SOCK=4 7s8]: %MAP%%PURPLE% ETH %NAME% %RED%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=4 7pa]: %MAP%%PURPLE% ETH %NAME% %RED%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=4 7h7]: %MAP%%PURPLE% ETH %NAME% %RED%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=4 7wc]: %MAP%%RED%ØØØØØ %PURPLE%ETH %NAME%%RED% ØØØØØ%RED%[%SOCKETS%]
+ItemDisplay[NMAG !ETH SOCK=4 7s8]: %MAP%%DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG !ETH SOCK=4 7pa]:  %NAME% %RED%[%SOCKETS%]
+ItemDisplay[NMAG !ETH SOCK=4 7wc]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG scy !ETH SOCK=4 CLVL<93]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG 9s8 !ETH SOCK=4 CLVL<93]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
+
+ItemDisplay[NMAG wsc !ETH SOCK=4 CLVL<93]: %MAP%%DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG 9wc !ETH SOCK=4 CLVL<93]: %MAP%%DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
+//
+ItemDisplay[NMAG scy ETH SOCK=4 CLVL<93]: %MAP%%DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG 9s8 ETH SOCK=4 CLVL<93]: %MAP%%DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ ItemDisplay[NMAG wsc ETH SOCK=4 CLVL<93]: %MAP%%DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG 9wc ETH SOCK=4 CLVL<93]: %MAP%%DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+//
+ItemDisplay[NMAG ETH SOCK=0 !STAT91=0 7s8]: %MAP%%RED% -Req %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[ETH 7vo NMAG !SUP SOCK=0]: 
+ItemDisplay[ETH 7s8 NMAG !SUP SOCK=0]: %MAP%%GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[ETH 7pa NMAG !SUP SOCK=0]: %MAP%%DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[ETH 7h7 NMAG !SUP SOCK=0]: %MAP%%DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[ETH 7wc NMAG !SUP SOCK=0]: %MAP%%RED%ØØ %GREEN%ETH %NAME%%RED% ØØ %RED%[%SOCKETS%]
+//5 socket polearms
+ItemDisplay[NMAG ETH SUP SOCK=5 7h7]: %MAP%%GREEN%Ø ETH SUP DOOM BASE Ø %RED%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=5 !STAT91=0 7s8]: %MAP%%RED% -Req %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=5 7s8]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=5 7pa]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG ETH !SUP SOCK=5 7h7]: %MAP%%GREEN%Ø ETH DOOM BASE Ø %RED%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=5 7wc]: %GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+//
+ItemDisplay[NMAG !ETH SOCK=5 7s8]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG !ETH SOCK=5 7pa]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG !ETH SOCK=5 7h7]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG !ETH SOCK=5 7wc]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
+//end-game 2h swords
+ItemDisplay[NMAG ETH SOCK=6 7fb]: ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=5 7fb]: ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=5 7gd]: ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=4 7fb]: ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=4 7gd]: ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=0 7fb]: ETH %NAME% %GRAY%[%SOCKETS%]
+//Memory bases +3 ES
+//ETH Staves for Insight for Shockwave Druids
+//ETH Archon Staff, 6os ETH Archon Staff = BoTD = Breath of the Dying
+//5OS Crystal Sword, War Scepter, Flail = CTA = Call to Arms, 5 OS Double Axe = Beast
+//Hand of Justice
+//4os Flail, Larzuk Gaurantee = HOTO = Heart of the Oak
+ItemDisplay[fla NMAG ETH SOCK=4]: %MAP%%DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[fla NMAG !ETH SOCK=4]: %DARK_GREEN%%NAME% %GRAY%[%SOCKETS%]
+
+
+//5os Phase Blade, Zerker Axe = Grief
+ItemDisplay[7cr NMAG SOCK=5]: %MAP%%DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7wa NMAG !ETH SOCK=5]: %MAP%%DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7wa NMAG ETH SOCK=5]: %MAP%%DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+
+//Silence
+ItemDisplay[7cr NMAG SOCK=6]: %DARK_GREEN%%NAME% %GRAY%[%SOCKETS%]
+
+//Uncommon Runewords
+
+//Breath of the Dying = BotD
+ItemDisplay[7wa ETH NMAG SOCK=0]: %GREEN%ETH %NAME% %RED%[%SOCKETS%]
+ItemDisplay[7wa ETH NMAG SOCK=6]: %MAP%%GREEN%ETH %NAME% %RED%[%SOCKETS%]
+ItemDisplay[7gd ETH NMAG SOCK=0]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7gd ETH NMAG SOCK=6]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7p7 ETH NMAG SOCK=0]: %GREEN%ETH %NAME% %RED%[%SOCKETS%]
+ItemDisplay[7p7 ETH NMAG SOCK=6]: %GREEN%ETH %NAME% %RED%[%SOCKETS%]
+ItemDisplay[ame ETH NMAG TABSK2=3 SOCK=0]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[ame ETH NMAG TABSK2=3 SOCK=6]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[ame ETH NMAG SOCK=0]: %DARK_GREEN%ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[ame ETH NMAG SOCK=6]: %DARK_GREEN%ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[amd ETH NMAG TABSK2=3 SOCK=0]: %DARK_GREEN%ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[amd ETH NMAG TABSK2=3 SOCK=6]: %DARK_GREEN%ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[amd ETH NMAG SOCK=0]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[amd ETH NMAG SOCK=6]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
+
+//Plague
+ItemDisplay[WP13 NMAG (SK119=3) !SOCK=1 !SOCK=2]:%GRAY%+3 sanc wep %GRAY%[%SOCKETS%]
+ItemDisplay[obf NMAG SOCK=3 (SK62=3)]:%DARK_GREEN%+3 hydra orb %YELLOW%[%SOCKETS%]
+ItemDisplay[obf NMAG SOCK=3 (SK59=3)]:%DARK_GREEN%+3 blizzard orb %YELLOW%[%SOCKETS%]
+ItemDisplay[obf NMAG SOCK=3 (SK64=3)]:%DARK_GREEN%+3 forb orb %YELLOW%[%SOCKETS%]
+
+ItemDisplay[oba NMAG SOCK=3 (SK62=3)]:%DARK_GREEN%+3 hydra orb %YELLOW%[%SOCKETS%]
+ItemDisplay[oba NMAG SOCK=3 (SK59=3)]:%DARK_GREEN%+3 blizzard orb %YELLOW%[%SOCKETS%]
+ItemDisplay[oba NMAG SOCK=3 (SK64=3)]:%DARK_GREEN%+3 forb orb %YELLOW%[%SOCKETS%]
+ItemDisplay[ob5 NMAG SOCK=3 (SK62=3)]:%DARK_GREEN%+3 hydra orb %YELLOW%[%SOCKETS%]
+ItemDisplay[ob5 NMAG SOCK=3 (SK59=3)]:%DARK_GREEN%+3 blizzard orb %YELLOW%[%SOCKETS%]
+ItemDisplay[ob5 NMAG SOCK=3 (SK64=3)]:%DARK_GREEN%+3 forb orb %YELLOW%[%SOCKETS%]
+ItemDisplay[obf NMAG SOCK=0 (SK62=3)]:%DARK_GREEN%+3 hydra orb %YELLOW%[%SOCKETS%]
+ItemDisplay[obf NMAG SOCK=0 (SK59=3)]:%DARK_GREEN%+3 blizzard orb %YELLOW%[%SOCKETS%]
+ItemDisplay[obf NMAG SOCK=0 (SK64=3)]:%DARK_GREEN%+3 forb orb %YELLOW%[%SOCKETS%]
+ItemDisplay[oba NMAG SOCK=0 (SK62=3)]:%DARK_GREEN%+3 hydra orb %YELLOW%[%SOCKETS%]
+ItemDisplay[oba NMAG SOCK=0 (SK59=3)]:%DARK_GREEN%+3 blizzard orb %YELLOW%[%SOCKETS%]
+ItemDisplay[oba NMAG SOCK=0 (SK64=3)]:%DARK_GREEN%+3 forb orb %YELLOW%[%SOCKETS%]
+ItemDisplay[ob5 NMAG SOCK=0 (SK62=3)]:%DARK_GREEN%+3 hydra orb %YELLOW%[%SOCKETS%]
+ItemDisplay[ob5 NMAG SOCK=0 (SK59=3)]:%DARK_GREEN%+3 blizzard orb %YELLOW%[%SOCKETS%]
+ItemDisplay[ob5 NMAG SOCK=0 (SK64=3)]:%DARK_GREEN%+3 forb orb %YELLOW%[%SOCKETS%]
+
+
+
+//Death
+ItemDisplay[7fb ETH NMAG SOCK=0]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7wa ETH NMAG SOCK=5]: %DARK_GREEN%ETH %NAME% %RED%[%SOCKETS%]
+ItemDisplay[7fb ETH NMAG SOCK=5]: %RED%ØØ %PURPLE%ETH %NAME%%RED% ØØ %RED%[%SOCKETS%]
+ItemDisplay[7gi ETH NMAG SOCK=0]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[7gi ETH NMAG SOCK=5]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
+
+//Bow Bases
+ItemDisplay[amc SOCK=4 SUP NMAG TABSK0=3]: %DARK_GREEN%+3 SUP GMBow %YELLOW%[%SOCKETS%]
+ItemDisplay[amb SOCK=4 SUP NMAG TABSK0=3]: %DARK_GREEN%+3 SUP MBow %YELLOW%[%SOCKETS%]
+ItemDisplay[amc SOCK=4 !SUP NMAG TABSK0=3]: %DARK_GREEN%+3 GMBow %YELLOW%[%SOCKETS%]
+ItemDisplay[amb SOCK=4 !SUP NMAG TABSK0=3]: %DARK_GREEN%+3 MBow %GRAY%[%SOCKETS%]
+ItemDisplay[amb SOCK=0 !SUP NMAG TABSK0=3]: %DARK_GREEN%+3 Mbow %GRAY%[%SOCKETS%]
+ItemDisplay[amc SOCK=0 !SUP NMAG TABSK0=3]: %DARK_GREEN%+3 GMBow %YELLOW%[%SOCKETS%]
+ItemDisplay[amc NMAG SOCK=4]: %GRAY%GMBow[%SOCKETS%]
+ItemDisplay[amc !SUP NMAG SOCK=0]: %GRAY%GMBow
+ItemDisplay[6cb NMAG SOCK=4]: %DARK_GREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[6hb NMAG SOCK=4]: %DARK_GREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[6cb NMAG SOCK=0]: %GRAY%%NAME%
+ItemDisplay[6hb NMAG SOCK=0]: %GRAY%%NAME%
+
+//Last Wish
+//6os Berserker Axe, Phase Blade, Thunder Maul = LW = Last Wish
+ItemDisplay[7cr !ETH NMAG SOCK=6]: %DARK_GREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[7wa !ETH NMAG SOCK=6]: %MAP%%DARK_GREEN%%NAME% %GRAY%[%SOCKETS%]
+
+//Mancatcher
+ItemDisplay[7br ETH NMAG SOCK=5]: %MAP%%GREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[7br ETH NMAG SOCK=4]: %MAP%%GREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[7br !ETH NMAG SOCK=4]: %DARK_GREEN%%NAME% %GRAY%[%SOCKETS%]
+
+//Lawbringer
+ItemDisplay[7cr NMAG SOCK=3]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[72h ETH NMAG SOCK=3]: %MAP%%DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[72h ETH NMAG SOCK=0]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7ls ETH NMAG SOCK=3]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7ls ETH NMAG SOCK=0]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7ls NMAG SOCK=3]: %GRAY%%NAME% %GRAY%[%SOCKETS%]
+
+//Oath
+ItemDisplay[7wa ETH NMAG SOCK=4]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7fb ETH NMAG SOCK=4]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[7gd ETH NMAG SOCK=4]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[CL1 NMAG (SK247=3) !SOCK=1]: %GRAY%Grizzly Pelt%GRAY%[%SOCKETS%]
+
+
+//non-magic barbarian primal helms (barb)
+ItemDisplay[CL2 NMAG (SK154=3) !SOCK=1 CLVL<95]: %DARK_GREEN%warcry helm%GRAY%[%SOCKETS%]
+ItemDisplay[CL2 NMAG (SK149=3) !SOCK=1 CLVL<95]: %MAP%%DARK_GREEN% +3 BO helm%GRAY%[%SOCKETS%]
+ItemDisplay[CL2 NMAG (SK154>0) !SOCK=1 CLVL<90]: %GRAY%warcry helm%GRAY%[%SOCKETS%]
+ItemDisplay[CL2 NMAG (SK149>0) !SOCK=1 CLVL<90]: %GRAY%bo helm%GRAY%[%SOCKETS%]
+
+//Inferior Items
+ItemDisplay[INF ILVL<10 !RW !leg]: %NAME%
+
+//Leveling - New Character Experience - New Player Experience - NPE
+
+//Amazon Leveling
+
+//Melody bow bases
+ItemDisplay[amb SOCK=3 NMAG]: %DARK_GREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[amc SOCK=3 NMAG]: %DARK_GREEN%%NAME% %GRAY%[%SOCKETS%]
+
+//Assassin Leveling
+
+//Non-Magic claws, Magic claws, Rare claws
+//ItemDisplay[!RW NMAG CL5]: %NAME%
+//ItemDisplay[!RW MAG CL5]: %NAME%
+//ItemDisplay[!RW RARE CL5]: %NAME%
+
+//Leveling - Generic
+ItemDisplay[RARE ILVL<15]: %NAME%
+ItemDisplay[!RW NORM NMAG ILVL<15 SOCK>0 ETH (ARMOR OR WEAPON)]: ETH %NAME% [%SOCKETS%]
+ItemDisplay[!RW NORM NMAG ILVL<15 SOCK=0 ETH (ARMOR OR WEAPON)]: ETH %NAME%
+ItemDisplay[!RW NORM NMAG ILVL<15 SOCK>0 (ARMOR OR WEAPON)]: %NAME% [%SOCKETS%]
+ItemDisplay[!RW NORM NMAG ILVL<15 SOCK>0 (ARMOR OR WEAPON)]: %NAME% [%SOCKETS%]
+ItemDisplay[!RW NORM NMAG ILVL<15 (ARMOR OR WEAPON)]: %NAME%
+ItemDisplay[ILVL<50 SOCK>1 !RW NMAG (ARMOR OR WEAPON)]: %NAME% [%SOCKETS%]
+//ItemDisplay[ILVL<50 SOCK<2 !RW NORM NMAG (ARMOR OR WEAPON)]:
+//ItemDisplay[ILVL>14 SOCK<2 !RW NORM NMAG (ARMOR OR WEAPON)]:
+ItemDisplay[ILVL<26 NORM MAG (ARMOR OR WEAPON) !ID]: %NAME%
+ItemDisplay[ILVL>25 SOCK<2 NORM MAG (ARMOR OR WEAPON) !ID]:
+ItemDisplay[ILVL>25 NORM MAG (ARMOR OR WEAPON) ID]: %NAME%
+ItemDisplay[ILVL>0 ILVL<35 NORM RARE !ID (ARMOR OR WEAPON)]: %NAME%
+ItemDisplay[ILVL>35 !ID NORM RARE !EQ1 !EQ4 !EQ5 !EQ6 !EQ7 !WP11 !WP12 !WP13 !jew !amu !rin]:
+ItemDisplay[ILVL>65 !ID EXC RARE !EQ1 !EQ4 !EQ5 !EQ6 !EQ7 !WP11 !WP12 !WP13]:
+ItemDisplay[ILVL<31 EXC MAG WEAPON !ID]: %NAME%
+ItemDisplay[ILVL>30 !ID EXC MAG WEAPON !ID ]: 
+ItemDisplay[ILVL>30 EXC MAG WEAPON ID]: %NAME%
+//ItemDisplay[ILVL<66 !RW EXC NMAG (ARMOR OR WEAPON) SOCK>1]: %NAME% [%SOCKETS%]
+//ItemDisplay[ILVL<66 !RW EXC NMAG (ARMOR OR WEAPON) SOCK=0]:
+ItemDisplay[ILVL<66 EXC MAG ARMOR !ID]: %NAME%
+ItemDisplay[ILVL<66 EXC MAG ARMOR ID]: %NAME%
+ItemDisplay[ILVL<66 EXC RARE (ARMOR OR WEAPON)]: %NAME%
+ItemDisplay[ILVL<66 ELT MAG ARMOR !ID]: %NAME%
+ItemDisplay[ILVL<66 ELT MAG ARMOR ID]: %NAME%
+ItemDisplay[ILVL<66 ELT RARE (ARMOR OR WEAPON)]: %NAME%
+
+//RARES
+//Best Rares (Circlets, Amulets, Rings, Gloves, Boots, Belts, Jewels)
+ItemDisplay[RARE ci0 ci1 ci2 ci3 !ID]: %RED%Ø%YELLOW%%NAME%%RED%Ø
+ItemDisplay[RARE amu !ID]: %RED%Ø %YELLOW%%NAME% %RED%Ø
+ItemDisplay[RARE rin !ID]: %RED%Ø %YELLOW%%NAME% %RED%Ø
+ItemDisplay[RARE EQ4 !ID]: %YELLOW%%NAME%
+ItemDisplay[RARE EQ5 !ID]: %YELLOW%%NAME%
+ItemDisplay[RARE EQ6 !ID]: %YELLOW%%NAME%
+ItemDisplay[RARE jew !ID]: %MAP%%RED%Ø%YELLOW%%NAME%%RED%Ø
+//
+//Magic Diadems
+ItemDisplay[MAG ci3 !ETH !ID]: %BLUE%%NAME%
+//
+//Class Specific Rares (Druid Pelts, Barb Helms, Paladin Shields, Necro Heads, Assassin Claws, Sorc Orbs
+ItemDisplay[RARE CL1 !ID]: %YELLOW%%NAME%
+ItemDisplay[RARE CL2 !ID]: %YELLOW%%NAME%
+ItemDisplay[RARE CL5 !ID]: %YELLOW%%NAME%
+
+//Vendor items
+//Value Vendor items
+//SK88=1 =32453 Gold. SK73=1 =32453 Gold.
+ItemDisplay[WP12 NMAG !ETH (wnd OR ywn OR 9wn) ILVL>49 (SK73>0 OR SK79=3 OR SK82=3 OR SK83>1 OR SK85=3 OR SK86>1 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %NAME% %ORANGE%($%PRICE%)
+ItemDisplay[WP12 NMAG !ETH SOCK=1 (SK73>0 OR SK79=3 OR SK82=3 OR SK83>1 OR SK85=3 OR SK86>1 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %NAME% %ORANGE%($%PRICE%)
+ItemDisplay[NMAG !ETH !ED=15 (7tk OR 7ta OR 7bk)]: Throw%ORANGE% ($%PRICE%)
+
+//MAGIC
+//Magic Circlets
+ItemDisplay[MAG ci0 ci1 ci2 ci3 !ETH !ID]: %NAME%
+//Magic Vendor (Staff, Wand, Scepter)
+
+
+//Armor (Helm, Body, Shield, Glove, Boot, Belt, Circlet
+//Helms
+//Dream Delirium
+//Low Str 3SOC Masks (NON ETH)
+ItemDisplay[NMAG SOCK=3 !ETH msk]: %NAME% [%SOCKETS%]
+ItemDisplay[NMAG SOCK=3 !ETH xsk]: %NAME% [%SOCKETS%]
+//103-106 str helms for archon plate builds
+ItemDisplay[NMAG SOCK=3 !ETH usk]: %NAME% [%SOCKETS%]
+ItemDisplay[NMAG SOCK=3 !ETH uh9]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
+
+//Tiara Diadem Imbue Charsi
+//tiara
+ItemDisplay[NMAG ci2 !ETH SOCK=0]: %NAME%
+//diadem
+ItemDisplay[NMAG ci3 !ETH SOCK=0]: %NAME%
+
+//Catchall
+
+ItemDisplay[ETH SOCK>0]: ETH %NAME% [%SOCKETS%]
+ItemDisplay[ETH SOCK=0]: ETH %NAME%
+ItemDisplay[SOCK>0]: %NAME% [%SOCKETS%]
+
+
+//Bug testing code
+//ItemDisplay[]: %NAME% [%CODE%]
