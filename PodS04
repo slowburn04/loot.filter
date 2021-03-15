@@ -41,7 +41,7 @@ ItemDisplay[toa]: %MAP%%PURPLE%Token of Absolution
 ItemDisplay[std]: %NAME%
 ItemDisplay[cx5]: %MAP%%GREEN%*    *%PURPLE%Orb of Corruption%GREEN%*    *
 ItemDisplay[cx6]: %PURPLE%Diablo's Soulstone
-ItemDisplay[cx7]: %MAP%%RED%ØØØØØØØØØ %PURPLE%KEY OF CHAOS%RED% ØØØØØØØØØ
+ItemDisplay[cx7]: %MAP%%RED%ØØØØØØ %PURPLE%KEY OF CHAOS%RED% ØØØØØØ
 
 //Maps
 
@@ -76,8 +76,8 @@ ItemDisplay[mbr]: %NOTIFY-ORANGE%%PURPLE%Mephisto's Brain
 ItemDisplay[ear]: %PURPLE% You Died Bitch %NAME%
 
 //Utility
-//ItemDisplay[isc]: %GREEN%!%WHITE%ID
-ItemDisplay[isc CLVL<41]: %GREEN%!%WHITE%ID
+//ItemDisplay[isc]:
+ItemDisplay[isc CLVL<41]:
 ItemDisplay[isc CLVL>40]:
 //
 ItemDisplay[wms CLVL<60]: %GREEN%!%WHITE%Thaw
@@ -97,7 +97,7 @@ ItemDisplay[opl]:
 ItemDisplay[ops]:
 ItemDisplay[gps]:
 ItemDisplay[gpl]:
-ItemDisplay[vps CLVL<55]: %GREEN%!%WHITE%Stamina
+ItemDisplay[vps CLVL<55]:
 ItemDisplay[vps CLVL>54]:
 //Hide MAGIC Arrows & Bolts above level 60
 ItemDisplay[aq2 MAG ILVL>60]:
@@ -225,7 +225,7 @@ ItemDisplay[glg]: %ORANGE%Emerald
 ItemDisplay[glr]: %ORANGE%Ruby
 ItemDisplay[glb]: %ORANGE%Sapphire
 ItemDisplay[gly]: %ORANGE%Topaz
-ItemDisplay[skl]: %ORANGE%Skull
+ItemDisplay[skl]: %GREEN%** %ORANGE%Skull
 //Gems Perfect
 ItemDisplay[gpv]: %ORANGE%P AMETHYST
 ItemDisplay[gpw]: %ORANGE%P DIAMOND
@@ -416,7 +416,7 @@ ItemDisplay[UNI !ID rin]: %NOTIFY-PURPLE%%NL%%RED%ØØØØØ %PURPLE%FAKE SOJ HY
 ItemDisplay[UNI !ID amu]: %NOTIFY-PURPLE%%NL%%RED%ØØØØØ %PURPLE%FAKE MARA'S HYPE %RED%ØØØØØ%NL%
 ItemDisplay[UNI !ID jew]: %NOTIFY-PURPLE%%NL%%RED%ØØØØØØØ%YELLOW%Ø%GREEN%Ø%BLUE%Ø %PURPLE%RAINBOW FACET %BLUE%Ø%GREEN%Ø%YELLOW%Ø%RED%ØØØØØØØ%NL%
 ItemDisplay[UNI !ID cm3]: %NOTIFY-PURPLE%%RED%Ø %GOLD%Gheeds %RED%Ø
-ItemDisplay[SET !ID amu]: %MAP%ØØØØØ Set Amulet ØØØØØ
+ItemDisplay[SET !ID amu]: %MAP%ØØØØØ Fake Tal's Ammy ØØØØØ
 
 //UNIQUE&SET Eth/Socket Catchall
 ItemDisplay[UNI ETH SOCK>0 !ID]: ETH %NAME% [%SOCKETS%]
@@ -504,7 +504,7 @@ ItemDisplay[MAG rin ILVL=85]: %BLUE%%NAME%
 ItemDisplay[MAG rin]: %BLUE%%NAME%%WHITE% 
 
 //Blue Jewels for crafting
-ItemDisplay[MAG !ID jew]: %MAP%%GREEN%*%ORANGE%Jewel
+ItemDisplay[MAG !ID jew]: %MAP%%GREEN%* %ORANGE%Jewel
 
 //Gloves
 //Blood Gloves (Heavy Gloves/Sharkskin/Vampirebone) + NEF + RUBY + JEWEL
@@ -593,11 +593,11 @@ ItemDisplay[RW]: %NAME%
 //ItemDisplay[!UNI (cm1 OR cm3 OR cm2)]: %ORANGE%%NAME%%GRAY%[%ILVL%]
 ItemDisplay[UNI (cm1 OR cm2 OR cm3)]: %MAP%%NAME%
 ItemDisplay[!UNI cm2]: %NAME%%GRAY%[%ILVL%]
-ItemDisplay[!UNI !ID cm1]: %GREEN%**%ORANGE%%MAP%%NAME%%GRAY%[%ILVL%]
-ItemDisplay[!UNI ID cm1]: %GREEN%**%ORANGE%%NAME%%GRAY%[%ILVL%]
-ItemDisplay[!UNI cm3 !ID ILVL<50]:%GREEN%**%ORANGE%%NAME%%GRAY%[%ILVL%]
-ItemDisplay[!UNI cm3 !ID ILVL>49]: %GREEN%**%ORANGE%%MAP%%NAME%%GRAY%[%ILVL%]
-ItemDisplay[!UNI cm3 ID ILVL>49]: %GREEN%**%ORANGE%%NAME%%GRAY%[%ILVL%]
+ItemDisplay[!UNI !ID cm1]: %GREEN%** %ORANGE%%MAP%%NAME%%GRAY%[%ILVL%]
+ItemDisplay[!UNI ID cm1]: %GREEN%** %ORANGE%%NAME%%GRAY%[%ILVL%]
+ItemDisplay[!UNI cm3 !ID ILVL<50]:%GREEN%** %ORANGE%%NAME%%GRAY%[%ILVL%]
+ItemDisplay[!UNI cm3 !ID ILVL>49]: %GREEN%** %ORANGE%%MAP%%NAME%%GRAY%[%ILVL%]
+ItemDisplay[!UNI cm3 ID ILVL>49]: %GREEN%** %ORANGE%%NAME%%GRAY%[%ILVL%]
 
 
 //
