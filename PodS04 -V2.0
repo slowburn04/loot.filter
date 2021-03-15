@@ -34,7 +34,7 @@ ItemDisplay[toa]: %MAP%%PURPLE%Token of Absolution
 ItemDisplay[std]: %NAME%
 ItemDisplay[cx5]: %MAP%%GREEN%*    *%PURPLE%Orb of Corruption%GREEN%*    *
 ItemDisplay[cx6]: %PURPLE%Diablo's Soulstone
-ItemDisplay[cx7]: %MAP%%RED%ØØØØØØØØØ %PURPLE%KEY OF CHAOS%RED% ØØØØØØØØØ
+ItemDisplay[cx7]: %MAP%%RED%ØØØØØØ %PURPLE%KEY OF CHAOS%RED% ØØØØØØ
 
 //Maps
 
@@ -68,13 +68,7 @@ ItemDisplay[mbr]: %NOTIFY-ORANGE%%PURPLE%Mephisto's Brain
 //Ear
 ItemDisplay[ear]: %PURPLE% You Died Bitch %NAME%
 
-//Utility
-//ItemDisplay[isc]: %GREEN%!%WHITE%ID
-ItemDisplay[isc CLVL<41]: %GREEN%!%WHITE%ID
-ItemDisplay[isc CLVL>40]:
 //
-ItemDisplay[wms CLVL<60]: %GREEN%!%WHITE%Thaw
-ItemDisplay[wms CLVL>59]:
 ItemDisplay[yps]: %GREEN%!%WHITE%a
 //Keys for Locked Chests
 ItemDisplay[key]: %GRAY%Key
@@ -84,7 +78,6 @@ ItemDisplay[ibk]: %WHITE%Tome of Identify
 //Scrolls
 ItemDisplay[tsc]: %GREEN%!%WHITE%TP
 //Choking, Exploding, Fulminating, Oil, Rancid, Strangling, Stamina 
-ItemDisplay[vps CLVL<55]: %GREEN%!%WHITE%Stamina
 //Hide MAGIC Arrows & Bolts above level 60
 ItemDisplay[aq2 RARE ILVL>60]: %NAME%
 ItemDisplay[aq2 SET ILVL>60]: %NAME%
@@ -126,7 +119,7 @@ ItemDisplay[r27]: %NOTIFY-PURPLE%%NL%%NL%%RED%ØØØØØØØØØØ %PURPLE%OHM 2
 ItemDisplay[r28]: %NOTIFY-PURPLE%%NL%%NL%%RED%ØØØØØØØØØØØØØØØØ %PURPLE%LO 28%RED% ØØØØØØØØØØØØØØØØ%NL%%NL%
 ItemDisplay[r29]: %NOTIFY-PURPLE%%NL%%NL%%RED%ØØØØØØØØØØØØØØØØ %PURPLE%SUR 29%RED% ØØØØØØØØØØØØØØØØ%NL%%NL%
 ItemDisplay[r30]: %NOTIFY-PURPLE%%NL%%NL%%RED%ØØØØØØØØØØØØØØØØØØØ %PURPLE%BER 30%RED%ØØØØØØØØØØØØØØØØØØØ %NL%%NL%
-ItemDisplay[r31]: %NOTIFY-PURPLE%%NL%%NL%%RED%ØØØØØØØØØØØØØØØØØØ %PURPLE%JAH 31%RED% ØØØØØØØØØØØØØØØØØØ%NL%%NL%
+ItemDisplay[r31]: %NOTIFY-PURPLE%%NL%%NL%%RED%ØØØØØØØØØØØØØØØØØØ %PURPLE%JAH BITCH 31%RED% ØØØØØØØØØØØØØØØØØØ%NL%%NL%
 ItemDisplay[r32]: %NOTIFY-PURPLE%%NL%%NL%%RED%ØØØØØØØØØØ %PURPLE%CHAM 32%RED% ØØØØØØØØØØ%NL%%NL%
 ItemDisplay[r33]: %NOTIFY-PURPLE%%NL%%NL%%RED%ØØØØØØØØØØØØØØØ %PURPLE%ZOD 33%RED% ØØØØØØØØØØØØØØØ%NL%%NL%
 
@@ -181,7 +174,7 @@ ItemDisplay[glg]: %ORANGE%Emerald
 ItemDisplay[glr]: %ORANGE%Ruby
 ItemDisplay[glb]: %ORANGE%Sapphire
 ItemDisplay[gly]: %ORANGE%Topaz
-ItemDisplay[skl]: %ORANGE%Skull
+ItemDisplay[skl]: %GREEN%** %ORANGE%Skull
 //Gems Perfect
 ItemDisplay[gpv]: %ORANGE%P AMETHYST
 ItemDisplay[gpw]: %ORANGE%P DIAMOND
@@ -335,9 +328,9 @@ ItemDisplay[UNI !ETH !ID 6cs]: %MAP%%RED% Ø %PURPLE%ONDALS (BALL LIGHTNING STAF
 //Blackoak
 ItemDisplay[UNI !ETH !ID uml]: Black Oak
 //Civerb wep
-ItemDisplay[SET !ETH !ID gsc]: %MAP%%RED%Ø %GREEN% Civerb wep %RED%Ø 
+ItemDisplay[SET !ETH !ID gsc]: %GREEN% Civerb wep
 //Cleglaw sword
-ItemDisplay[SET !ETH !ID lsd]:  %MAP%%RED%ØØ %GREEN% Cleglaw Sword %RED%ØØ
+ItemDisplay[SET !ETH !ID lsd]:  %GREEN% Cleglaw Sword
 
 
 //Arrows
@@ -366,7 +359,7 @@ ItemDisplay[UNI !ID rin]: %NOTIFY-PURPLE%%NL%%RED%ØØØØØ %PURPLE%FAKE SOJ HY
 ItemDisplay[UNI !ID amu]: %NOTIFY-PURPLE%%NL%%RED%ØØØØØ %PURPLE%FAKE MARA'S HYPE %RED%ØØØØØ%NL%
 ItemDisplay[UNI !ID jew]: %NOTIFY-PURPLE%%NL%%RED%ØØØØØØØ%YELLOW%Ø%GREEN%Ø%BLUE%Ø %PURPLE%RAINBOW FACET %BLUE%Ø%GREEN%Ø%YELLOW%Ø%RED%ØØØØØØØ%NL%
 ItemDisplay[UNI !ID cm3]: %NOTIFY-PURPLE%%RED%Ø %GOLD%Gheeds %RED%Ø
-ItemDisplay[SET !ID amu]: %MAP%ØØØØØ Fake Tal Ammy's ØØØØØ
+ItemDisplay[SET !ID amu]: %MAP%ØØØØØ Fake Tal's Ammy ØØØØØ
 
 //UNIQUE&SET Eth/Socket Catchall
 ItemDisplay[UNI ETH SOCK>0 !ID]: ETH %NAME% [%SOCKETS%]
